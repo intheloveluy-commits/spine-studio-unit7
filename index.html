@@ -1,0 +1,814 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="spine-studio-build" content="GitHub Pages 1.0"/>
+<meta name="theme-color" content="#0f172a"/>
+<meta name="description" content="Spine Studio — Unit 7 English Reading: Vertebrates, Analyzing Language, Vocabulary, Reading, Games, Summary, and Graphic Organizer."/>
+<title>SPINE STUDIO — Unit 07 · Vertebrates | GitHub Pages</title>
+<style>
+:root{
+  --ink:#112032; --slate:#334155; --muted:#66768a; --line:#dce6ef; --soft:#f4f8fb; --white:#fff;
+  --night:#0b132b; --sea:#284b63; --mint:#67e8f9; --teal:#1fb6c9; --cyan:#0ea5e9; --foam:#effcff; --card:#ffffff;
+  --purple:#7c3aed; --gold:#f59e0b; --green:#14b8a6; --rose:#fb7185; --shadow:0 20px 60px rgba(15,23,42,.10);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:'DM Sans','Noto Sans Thai',system-ui,sans-serif;color:var(--ink);background:#fff;-webkit-font-smoothing:antialiased}
+a{text-decoration:none;color:inherit}button,input,select{font:inherit}button{cursor:pointer}
+button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #67e8f9;outline-offset:4px}
+::selection{background:#bdf7ff;color:#03111d}
+.progress{position:fixed;top:0;left:0;height:4px;background:linear-gradient(90deg,#67e8f9,#0ea5e9,#7c3aed);width:0;z-index:120}
+.nav{position:fixed;top:14px;left:50%;transform:translateX(-50%);z-index:110;display:flex;align-items:center;justify-content:space-between;gap:16px;width:min(1220px,calc(100% - 24px));padding:14px 18px;border-radius:24px;background:rgba(255,255,255,.82);backdrop-filter:blur(18px);border:1px solid rgba(255,255,255,.7);box-shadow:0 16px 50px rgba(15,23,42,.14)}
+.brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:-.04em;color:#091b2c}.brand-icon{width:36px;height:36px;border-radius:14px;display:grid;place-items:center;background:linear-gradient(135deg,#1fb6c9,#7c3aed);color:#fff;font-size:18px;box-shadow:0 10px 24px rgba(31,182,201,.25)}
+.nav-links{display:flex;gap:6px;flex-wrap:wrap;justify-content:center}.nav-links a{padding:9px 12px;border-radius:999px;font-size:12px;font-weight:700;color:#4b5c70;white-space:nowrap}.nav-links a:hover,.nav-links a.active{background:#eafaff;color:#065f72}.nav-cta{border:0;border-radius:999px;padding:11px 16px;font-weight:800;background:#091b2c;color:#fff;box-shadow:0 8px 20px rgba(9,27,44,.16)}
+.hero{position:relative;min-height:880px;height:100vh;overflow:hidden;background:
+ radial-gradient(circle at 76% 20%,rgba(124,58,237,.28),transparent 24%),
+ radial-gradient(circle at 16% 22%,rgba(103,232,249,.24),transparent 24%),
+ linear-gradient(135deg,#06101d 0%,#0b132b 40%,#16324f 100%);color:#fff;display:flex;align-items:center}
+.hero:before{content:'';position:absolute;inset:0;background:repeating-radial-gradient(circle at 80% 10%,rgba(255,255,255,.08) 0 1px,transparent 2px 48px);opacity:.45}
+.hero:after{content:'';position:absolute;left:-8%;right:-8%;bottom:-8%;height:32%;background:radial-gradient(ellipse at center,rgba(255,255,255,.08),transparent 62%)}
+.hero-inner{position:relative;z-index:2;width:min(1220px,calc(100% - 40px));margin:0 auto;display:grid;grid-template-columns:1.08fr .92fr;gap:32px;align-items:center}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;padding:10px 16px;border:1px solid rgba(255,255,255,.24);border-radius:999px;background:rgba(255,255,255,.06);text-transform:uppercase;letter-spacing:.18em;font-weight:800;font-size:11px;color:#c7fbff}.eyebrow .dot{width:8px;height:8px;border-radius:50%;background:#67e8f9;box-shadow:0 0 0 8px rgba(103,232,249,.12),0 0 18px rgba(103,232,249,.8)}
+.hero h1{margin:20px 0 18px;font-size:clamp(52px,7.4vw,112px);line-height:.92;letter-spacing:-.09em;font-weight:800}.hero h1 .grad{display:block;background:linear-gradient(90deg,#fff 8%,#7ef9fa 50%,#c1b3ff 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero .sub{font-size:clamp(20px,2.6vw,34px);font-weight:600;letter-spacing:-.04em;margin:0 0 12px;color:#edf9ff}.hero .desc{font-size:16px;line-height:1.85;color:#bed6e4;max-width:620px}.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:0;border-radius:999px;padding:14px 22px;font-weight:800;transition:transform .2s,box-shadow .2s,background .2s}.btn:hover{transform:translateY(-2px)}.btn-white{background:#fff;color:#0a2133;box-shadow:0 10px 28px rgba(0,0,0,.18)}.btn-glass{background:rgba(255,255,255,.08);color:#fff;border:1px solid rgba(255,255,255,.26)}
+.hero-stats{display:flex;flex-wrap:wrap;gap:28px;margin-top:36px}.hero-stats .stat b{display:block;font-size:28px;color:#fff}.hero-stats .stat span{display:block;font-size:12px;color:#a3c7d8;text-transform:uppercase;letter-spacing:.12em}
+.hero-side{position:relative;display:grid;place-items:center;min-height:560px}
+.glass-card{position:relative;width:min(100%,520px);aspect-ratio:4/5;border-radius:36px;padding:26px;background:linear-gradient(180deg,rgba(255,255,255,.16),rgba(255,255,255,.06));border:1px solid rgba(255,255,255,.18);backdrop-filter:blur(14px);box-shadow:0 30px 80px rgba(0,0,0,.24);overflow:hidden}
+.glass-card:before{content:'';position:absolute;inset:18px;border-radius:28px;border:1px solid rgba(255,255,255,.14)}
+.glass-top{display:flex;justify-content:space-between;align-items:center;color:#d9faff;font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:800}
+.glass-title{font-size:30px;line-height:1.05;letter-spacing:-.05em;font-weight:800;color:#fff;margin:28px 0 12px}.glass-p{color:#cae8f3;line-height:1.8;font-size:14px;margin:0 0 18px}.chip-row{display:flex;flex-wrap:wrap;gap:10px}.hero-chip{padding:10px 12px;border-radius:999px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);color:#fff;font-size:12px;font-weight:700}
+.spine-canvas{margin-top:20px;display:grid;place-items:center;height:290px;perspective:1000px}
+.spine-3d{position:relative;width:220px;height:250px;transform-style:preserve-3d;animation:floaty 6s ease-in-out infinite}
+.spine-3d .spine-core{position:absolute;inset:0;display:grid;place-items:center;transform:rotateX(14deg) rotateY(-12deg)}
+.vertebra-stack{position:relative;width:90px;height:220px;display:flex;flex-direction:column;justify-content:space-between;align-items:center}
+.vertebra{position:relative;width:92px;height:22px;border-radius:16px;background:linear-gradient(180deg,#f7f7ff,#d3d7e7);box-shadow:inset 0 4px 6px rgba(255,255,255,.9),inset 0 -6px 8px rgba(110,121,148,.25),0 12px 16px rgba(5,12,26,.12)}
+.vertebra:before,.vertebra:after{content:'';position:absolute;top:5px;width:14px;height:12px;border-radius:8px;background:linear-gradient(180deg,#ecf0ff,#cad0e2)}.vertebra:before{left:-6px}.vertebra:after{right:-6px}
+.disc{position:relative;width:78px;height:8px;border-radius:999px;background:linear-gradient(180deg,#79e4f4,#24b7c7);box-shadow:0 0 10px rgba(121,228,244,.4)}
+.lig-left,.lig-right{position:absolute;top:14px;width:8px;height:192px;border-radius:999px;background:linear-gradient(180deg,#f4b9c7,#ee768e);opacity:.8;filter:blur(.2px)}.lig-left{left:56px}.lig-right{right:56px}
+.hotspot{position:absolute;display:grid;place-items:center;width:42px;height:42px;border-radius:50%;background:#fff;color:#08263a;font-weight:900;box-shadow:0 10px 28px rgba(0,0,0,.18);border:3px solid #67e8f9;cursor:pointer;transition:transform .2s,box-shadow .2s}.hotspot:hover,.hotspot.active{transform:scale(1.06);box-shadow:0 0 0 10px rgba(103,232,249,.14),0 14px 28px rgba(0,0,0,.22)}
+.hotspot.v{top:52px;left:10px}.hotspot.d{top:128px;right:8px;border-color:#fde68a}.hotspot.l{bottom:24px;left:18px;border-color:#fda4af}
+.callout{position:absolute;padding:10px 12px;border-radius:16px;background:rgba(255,255,255,.1);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.14);color:#ebfeff;font-weight:700;font-size:12px;line-height:1.5}.callout.small1{top:84px;right:28px}.callout.small2{bottom:28px;right:12px}
+.section{padding:112px 22px;scroll-margin-top:88px}.container{max-width:1220px;margin:0 auto}.kicker{margin:0 0 14px;color:#0f7481;letter-spacing:.18em;text-transform:uppercase;font-weight:800;font-size:11px}.section-title{margin:0 0 18px;font-size:clamp(40px,5vw,70px);line-height:1.06;letter-spacing:-.07em;font-weight:800}.gradient{background:linear-gradient(110deg,#0ea5e9,#14b8a6,#7c3aed);-webkit-background-clip:text;background-clip:text;color:transparent}.section-desc{max-width:700px;margin:0 0 34px;font-size:16px;line-height:1.85;color:var(--muted)}
+.card{background:#fff;border:1px solid var(--line);border-radius:30px;box-shadow:var(--shadow)} .soft{background:var(--soft)}
+.grid-2{display:grid;grid-template-columns:1.08fr .92fr;gap:22px}
+.pill{display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border-radius:999px;background:#eafaff;color:#046e7b;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.08em}
+.smallcaps{font-size:11px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}
+.intro-card{padding:34px}.intro-card h3{margin:0 0 12px;font-size:30px;line-height:1.15;letter-spacing:-.05em}.intro-card p{margin:0;color:#5e7284;line-height:1.85}.tip-list{display:grid;gap:14px;margin-top:24px}.tip{display:flex;gap:14px;padding:16px 18px;border-radius:22px;background:#f5fafc;border:1px solid #e4edf3}.tip strong{display:block;font-size:15px;margin-bottom:4px}.tip p{margin:0;font-size:14px;line-height:1.7;color:#607386}.tip-index{width:42px;height:42px;border-radius:14px;background:#dffaff;color:#067785;display:grid;place-items:center;font-weight:900;flex:0 0 auto}
+.example-box{padding:28px 30px;background:linear-gradient(135deg,#0b132b,#173b59);color:#fff;position:relative;overflow:hidden}.example-box:before{content:'ANALYZE';position:absolute;right:18px;top:20px;font-size:64px;line-height:1;font-weight:800;letter-spacing:-.04em;color:rgba(255,255,255,.06)}.example-box h3{margin:10px 0 8px;font-size:30px;letter-spacing:-.05em}.example-box p{margin:0;color:#d6e7f1;line-height:1.85;font-size:15px}.mini-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:22px}.mini-card{padding:16px;border-radius:18px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.10)}.mini-card b{display:block;color:#fff;margin-bottom:6px}.mini-card span{display:block;color:#bfeaf1;font-size:13px;line-height:1.7}
+.spine-section{background:linear-gradient(180deg,#f9fcff,#eef7fb)}
+.spine-grid{display:grid;grid-template-columns:1fr .9fr;gap:24px;align-items:stretch}.spine-model-card{padding:28px;overflow:hidden;position:relative;background:linear-gradient(145deg,#0c1630,#17395b);color:#fff}.spine-model-card .label-row{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}.spine-model-card .label-row .pill{background:rgba(255,255,255,.1);color:#dffcff}
+.spine-stage{display:grid;grid-template-columns:1fr 330px;gap:20px;align-items:center;margin-top:20px}.spine-stage .stage{min-height:420px;display:grid;place-items:center;border-radius:26px;background:radial-gradient(circle at 25% 22%,rgba(103,232,249,.12),transparent 18%),radial-gradient(circle at 77% 20%,rgba(124,58,237,.18),transparent 18%),rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);position:relative;overflow:hidden}
+.info-panel{padding:22px;border-radius:24px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.1);align-self:stretch}.info-panel h4{margin:10px 0 10px;font-size:26px;letter-spacing:-.04em}.info-panel p{margin:0;color:#dbe9f1;line-height:1.85;font-size:14px}.info-points{display:grid;gap:10px;margin:16px 0 0;padding:0;list-style:none}.info-points li{padding:12px 14px;border-radius:16px;background:rgba(255,255,255,.08);font-size:13px;line-height:1.65;color:#eefbff}.segment-buttons{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.segbtn{border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.08);color:#fff;border-radius:999px;padding:10px 14px;font-weight:800;font-size:13px}.segbtn.active,.segbtn:hover{background:#fff;color:#0b132b}
+.vocab-toolbar{display:flex;gap:14px;flex-wrap:wrap;align-items:center;justify-content:space-between;margin-bottom:18px}.filterbar{display:flex;gap:8px;flex-wrap:wrap}.filterbar button,.tabbar button{border:1px solid #d2e3eb;background:#fff;color:#4a6073;border-radius:999px;padding:10px 14px;font-size:13px;font-weight:800}.filterbar button.active,.tabbar button.active{background:#0c5365;color:#fff;border-color:#0c5365;box-shadow:0 10px 24px rgba(12,83,101,.15)}.search{min-width:min(100%,320px);padding:14px 16px;border:1px solid #d2e3eb;border-radius:999px;background:#fff}
+.word-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}.flip-card{height:230px;perspective:1200px}.flip-inner{position:relative;width:100%;height:100%;transform-style:preserve-3d;transition:transform .7s}.flip-card.flipped .flip-inner{transform:rotateY(180deg)}.flip-face{position:absolute;inset:0;backface-visibility:hidden;border-radius:26px;padding:22px;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow);display:flex;flex-direction:column;justify-content:space-between}.flip-back{transform:rotateY(180deg);background:linear-gradient(135deg,#08293f,#0d5b73);color:#fff;border-color:transparent}.word-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}.word-no{font-size:12px;font-weight:800;color:#0891b2}.word-pos{padding:6px 10px;border-radius:999px;background:#eaf8ff;color:#0e7490;font-size:11px;font-weight:800;text-transform:uppercase}.word-en{font-size:28px;line-height:1.04;letter-spacing:-.05em;font-weight:800;margin:18px 0 8px}.word-pron{color:#698091;font-size:14px}.word-thai{font-size:24px;letter-spacing:-.04em;font-weight:800;margin-top:18px}.word-def{font-size:14px;line-height:1.75;color:#d4f6fb}.tap-hint{font-size:12px;color:#8ba0b1}
+.game-section{background:linear-gradient(180deg,#f8fbff,#eef7fb)}
+.quiz-shell{padding:28px}.quiz-head{display:flex;justify-content:space-between;align-items:flex-start;gap:18px;flex-wrap:wrap}.quiz-head h3{margin:6px 0 0;font-size:32px;letter-spacing:-.05em}.scorebox{display:flex;gap:12px;flex-wrap:wrap}.scorepill{padding:12px 16px;border-radius:20px;background:#0b132b;color:#fff;font-weight:800;text-align:center;min-width:96px}.scorepill span{display:block;font-size:11px;color:#a3b6c9;letter-spacing:.1em;text-transform:uppercase;margin-bottom:4px}
+.quiz-q{padding:26px;margin-top:20px;border-radius:26px;background:linear-gradient(135deg,#0b132b,#17395b);color:#fff}.quiz-q .label{font-size:11px;letter-spacing:.18em;color:#8de5f2;text-transform:uppercase;font-weight:800}.quiz-q h4{margin:10px 0 10px;font-size:34px;letter-spacing:-.05em}.quiz-q p{margin:0;color:#d4e9f2;line-height:1.8}.choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:18px}.choice{border:1px solid #d4e5ee;background:#fff;border-radius:20px;padding:16px 16px;text-align:left;font-weight:700;color:#1d3345;transition:.2s transform,.2s border-color,.2s box-shadow}.choice:hover{transform:translateY(-2px);border-color:#8dd8ea;box-shadow:0 12px 24px rgba(14,165,233,.08)}.choice.correct{background:#dcfce7;border-color:#86efac}.choice.wrong{background:#ffe4e6;border-color:#fda4af}.quiz-feedback{margin-top:18px;padding:16px 18px;border-radius:18px;background:#f4f9fc;color:#53687a;line-height:1.75;display:none}.quiz-feedback.show{display:block}.quiz-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}.secondary{border:1px solid #d5e3ec;background:#fff;color:#1f4257;border-radius:999px;padding:12px 18px;font-weight:800}
+.memory-shell{padding:28px;margin-top:24px}.memory-shell h3{margin:0 0 12px;font-size:32px;letter-spacing:-.05em}.memory-head{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:14px}.memory-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}.memory-card{height:130px;perspective:1000px;cursor:pointer}.memory-inner{position:relative;width:100%;height:100%;transform-style:preserve-3d;transition:transform .6s}.memory-card.flipped .memory-inner,.memory-card.matched .memory-inner{transform:rotateY(180deg)}.memory-face{position:absolute;inset:0;backface-visibility:hidden;border-radius:22px;border:1px solid var(--line);display:grid;place-items:center;text-align:center;padding:14px;box-shadow:var(--shadow)}.memory-front{background:linear-gradient(135deg,#0c5365,#7c3aed);color:#fff;font-size:18px;font-weight:900}.memory-back{background:#fff;color:#0f172a;transform:rotateY(180deg);font-weight:800;line-height:1.45}.memory-card.matched{pointer-events:none}
+.tabbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}.reading-visual{min-height:260px;border-radius:26px;padding:18px;background:linear-gradient(135deg,#08293f,#114364);position:relative;overflow:hidden;color:#fff;display:grid;place-items:center}.reading-visual .scene{width:100%;max-width:520px}.reading-visual .scene text{font-family:Arial,sans-serif}.reading-card{padding:24px 26px}.reading-card h3{margin:0 0 8px;font-size:29px;letter-spacing:-.05em}.reading-card h4{margin:0 0 10px;font-size:18px;color:#0c6074}.reading-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:20px;align-items:start}.reading-columns{display:grid;grid-template-columns:1fr 1fr;gap:18px}.para-box,.sent-box{padding:18px;border-radius:22px;background:#f7fbfd;border:1px solid #e0edf4}.para-box b,.sent-box b{display:block;margin-bottom:8px;color:#0b5064}.para-box p,.sent-box p{margin:0;line-height:1.82;font-size:15px}.thai{color:#5e7486}.sents{display:grid;gap:14px}.badge{display:inline-flex;padding:6px 10px;border-radius:999px;background:#eafaff;color:#087786;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.08em}
+.analysis-grid,.exercise-grid,.summary-grid,.graphic-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.analysis-card,.exercise-card,.summary-card,.graphic-card{padding:26px}.analysis-card h3,.exercise-card h3,.summary-card h3,.graphic-card h3{margin:0 0 14px;font-size:29px;letter-spacing:-.05em}.ex-item{padding:18px;border-radius:20px;background:#f7fbfd;border:1px solid #e2edf4;margin-top:14px}.ex-item .q{font-weight:800;margin-bottom:10px;line-height:1.6}.ex-item .opts{display:grid;gap:8px}.opt{padding:11px 12px;border-radius:14px;background:#fff;border:1px solid #d8e5ec;font-size:14px;cursor:pointer}.opt.correct{background:#dcfce7;border-color:#86efac}.opt.wrong{background:#ffe4e6;border-color:#fda4af}.answerbox{margin-top:10px;padding:12px 14px;border-radius:14px;background:#edf8ff;color:#3d5c72;font-size:14px;line-height:1.7;display:none}.answerbox.show{display:block}
+.summary-cloze{display:grid;gap:12px}.blankline{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding:14px;border-radius:18px;background:#f7fbfd;border:1px solid #e1edf4}.blankline input{width:160px;max-width:100%;padding:10px 12px;border-radius:12px;border:1px solid #cfdee8}.summary-wordbank{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.wb{padding:8px 12px;border-radius:999px;background:#eafaff;color:#056978;font-weight:800;font-size:12px}.summary-result{margin-top:14px;padding:14px;border-radius:16px;background:#edfdf8;color:#0b6656;display:none;font-size:14px;line-height:1.75}.summary-result.show{display:block}
+.graphic-grid .go-box{padding:20px;border-radius:22px;background:#f7fbfd;border:1px solid #dfebf3}.go-box h4{margin:0 0 10px;font-size:21px;letter-spacing:-.04em}.go-box p,.go-box li{margin:0;color:#5c7284;line-height:1.8;font-size:15px}.go-box ul{padding-left:18px;margin:0}
+footer{padding:46px 22px 80px;color:#607487}.footer-card{max-width:1220px;margin:0 auto;padding:24px 28px;border-radius:28px;background:#0b132b;color:#d8e7f0;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}.footer-card b{display:block;color:#fff;font-size:22px;letter-spacing:-.04em}.footer-card span{font-size:14px;line-height:1.8;color:#c4d6e2}
+.reveal{opacity:1;transform:none}.reveal.show{animation:revealSoft .66s both}@keyframes revealSoft{from{opacity:.45;transform:translateY(18px)}to{opacity:1;transform:none}}@media(prefers-reduced-motion:reduce){.reveal.show{animation:none}}
+@keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+
+#quizRuntimeStatus,#memoryRuntimeStatus{display:inline-flex;font-size:13px;padding:11px 15px;background:#dcfce7;color:#065f46;border-radius:999px}
+#nextQuiz:disabled{cursor:not-allowed;transform:none!important}
+.memory-card{display:block;appearance:none;outline-offset:3px;-webkit-tap-highlight-color:transparent}
+.memory-inner{display:block}
+.memory-face{display:grid}
+
+@media (max-width:1080px){.hero-inner,.grid-2,.spine-grid,.reading-grid,.analysis-grid,.exercise-grid,.summary-grid,.graphic-grid{grid-template-columns:1fr}.spine-stage{grid-template-columns:1fr}.word-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.reading-columns{grid-template-columns:1fr}.nav{padding:12px 14px}.nav-links{display:none}.hero{height:auto;min-height:unset;padding:140px 0 70px}.hero-side{min-height:unset}}
+@media (max-width:760px){.section{padding:86px 16px}.hero-inner{width:min(100%,calc(100% - 26px))}.word-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.choices,.memory-grid,.mini-cards{grid-template-columns:1fr}.reading-card,.intro-card,.analysis-card,.exercise-card,.summary-card,.graphic-card,.quiz-shell,.memory-shell{padding:22px}.section-title{font-size:36px}.hero h1{font-size:46px}.glass-title{font-size:24px}.spine-model-card,.quiz-q{padding:20px}.memory-card{height:115px}.nav-cta{display:none}}
+
+/* GAME ENGINE 4.0 — independent from the lesson script */
+#memoryGrid .memory-card{display:block;width:100%;padding:0;border:0;background:transparent;appearance:none;-webkit-appearance:none;font-family:inherit;min-width:0}
+#memoryGrid .memory-inner{display:block}
+#memoryGrid .memory-back{overflow-wrap:anywhere;word-break:break-word}
+#quizChoices .choice:disabled{cursor:default}
+#gameDiagnostics{margin:12px 0 0;padding:11px 15px;border:1px solid #b2e8ec;border-radius:15px;color:#0b5861;background:#eefeff;font-size:13px;line-height:1.75;font-weight:700}
+#gameDiagnostics.g4-error{background:#fff2f2;border-color:#f9b3b9;color:#a21d2c}
+.game-section .quiz-shell,.game-section .memory-shell{scroll-margin-top:92px}
+</style>
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<nav class="nav">
+  <div class="brand"><div class="brand-icon">🦴</div><div>SPINE STUDIO <span style="font-size:11px;color:#688092;display:block;letter-spacing:.12em">UNIT 07 · VERTEBRATES · GITHUB PAGES EDITION</span></div></div>
+  <div class="nav-links">
+    <a href="#intro">Intro</a><a href="#spinelab">Spine Lab</a><a href="#vocabulary">Vocabulary</a><a href="#quiz">Quiz Game</a><a href="#memory">Memory</a><a href="#reading">Reading</a><a href="#analysis">Analysis</a><a href="#exercise">Practice</a><a href="#summary">Summary</a><a href="#graphic">Organizer</a>
+  </div>
+  <a class="nav-cta" href="#spinelab">Start Learning</a>
+</nav>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div>
+      <div class="eyebrow"><span class="dot"></span> Analyzing Language · Science Passage · Interactive Class Media</div>
+      <h1>Vertebrates.<span class="grad">Backbone.</span><span class="grad">Spine Lab.</span></h1>
+      <p class="sub">สื่อการสอน Unit 7 ที่ออกแบบใหม่ให้ทันสมัย และใช้สอนในห้องเรียนได้จริง</p>
+      <p class="desc">รวมหน้าวิเคราะห์ภาษา, โมเดลกระดูกสันหลังแบบกดเลือกส่วนต่าง ๆ, คำศัพท์สำคัญ 40 คำแบบพลิกการ์ด, เกมฝึกคำศัพท์แบบเก็บคะแนน, เกมจับคู่, บทอ่านพร้อมคำแปล, แบบฝึกพร้อมเฉลยและเหตุผล, Summary และ Graphic Organizer ในเว็บเดียว</p>
+      <div class="hero-actions">
+        <a class="btn btn-white" href="#intro">ดูโครงสร้างบทเรียน</a>
+        <a class="btn btn-glass" href="#vocabulary">ไปที่คำศัพท์ 40 คำ</a>
+      </div>
+      <div id="siteStatus" role="status" style="display:inline-flex;flex-wrap:wrap;gap:8px;margin-top:20px;padding:10px 14px;border:1px solid rgba(103,232,249,.34);border-radius:999px;background:rgba(103,232,249,.08);color:#e6f9ff;font-size:12px;font-weight:700">Science Passage: 3 sections · Vocabulary: 40 words · Build 4.0 · เกมแยกสคริปต์</div>
+      <div class="hero-stats">
+        <div class="stat"><b>40</b><span>Key Words</span></div>
+        <div class="stat"><b>3</b><span>Reading Sections</span></div>
+        <div class="stat"><b>2</b><span>Interactive Games</span></div>
+        <div class="stat"><b>1</b><span>Spine Lab Model</span></div>
+      </div>
+    </div>
+    <div class="hero-side">
+      <div class="glass-card">
+        <div class="glass-top"><span>Featured lesson</span><span>Human Shock Absorber</span></div>
+        <div class="glass-title">Interactive Spine<br/>Model Preview</div>
+        <p class="glass-p">คลิกเพื่อดูบทบาทของ <b>Vertebrae</b>, <b>Discs</b> และ <b>Ligaments</b> เพื่อเข้าใจบทอ่านเรื่อง <b>A Human Shock Absorber</b> ได้ง่ายขึ้น</p>
+        <div class="chip-row"><span class="hero-chip">Science passage</span><span class="hero-chip">Analyzing language</span><span class="hero-chip">Vocabulary games</span></div>
+        <div class="spine-canvas">
+          <div class="spine-3d" id="heroSpine">
+            <div class="spine-core">
+              <div class="lig-left"></div><div class="lig-right"></div>
+              <div class="vertebra-stack" aria-hidden="true">
+                <div class="vertebra"></div><div class="disc"></div><div class="vertebra"></div><div class="disc"></div><div class="vertebra"></div><div class="disc"></div><div class="vertebra"></div><div class="disc"></div><div class="vertebra"></div><div class="disc"></div><div class="vertebra"></div><div class="disc"></div><div class="vertebra"></div><div class="disc"></div><div class="vertebra"></div><div class="disc"></div><div class="vertebra"></div>
+              </div>
+            </div>
+            <div class="hotspot v" title="Vertebrae">V</div>
+            <div class="hotspot d" title="Discs">D</div>
+            <div class="hotspot l" title="Ligaments">L</div>
+            <div class="callout small1">clickable sections</div>
+            <div class="callout small2">educational model ✨</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="section" id="intro">
+  <div class="container">
+    <p class="kicker reveal">01 / Before reading</p>
+    <h2 class="section-title reveal">Analyze the language<br/><span class="gradient">before you read.</span></h2>
+    <p class="section-desc reveal">ในบทนี้นักเรียนต้องฝึก <b>Analyzing Language</b> ก่อนเข้าเรื่องอ่านจริง เพราะคำหลายคำต้องแปลตามบริบท ไม่ใช่แปลตรงตัว เช่น <i>represented by</i>, <i>comprised</i>, <i>referred to as</i>, <i>distinct sections</i> และ <i>absorb the shock</i></p>
+    <div class="grid-2">
+      <div class="intro-card card reveal">
+        <span class="pill">What is analyzing language?</span>
+        <h3>อ่านให้เข้าใจ “วิธีใช้ภาษา” ของผู้เขียน</h3>
+        <p>Analyzing Language คือการพิจารณาว่าผู้เขียนใช้คำศัพท์ วลี หรือโครงสร้างประโยคอย่างไรในบริบทของบทอ่าน เพื่อให้เราเข้าใจความหมายได้แม่นขึ้น โดยเฉพาะคำที่มีความหมายเฉพาะในวิชาการหรือในบทความวิทยาศาสตร์</p>
+        <div class="tip-list">
+          <div class="tip"><div class="tip-index">1</div><div><strong>ดูบริบทก่อนแปล</strong><p>อย่าแปลคำโดด ๆ แต่ให้ดูว่าอยู่ในประโยคแบบใด และเชื่อมกับข้อมูลรอบข้างอย่างไร</p></div></div>
+          <div class="tip"><div class="tip-index">2</div><div><strong>สังเกตวลีสำคัญ</strong><p>หลายครั้งวลีทั้งชุดมีความหมายชัดกว่าแต่ละคำ เช่น <b>referred to as</b> = “เรียกว่า”</p></div></div>
+          <div class="tip"><div class="tip-index">3</div><div><strong>หาหน้าที่ของคำในประโยค</strong><p>คำเดียวกันอาจทำหน้าที่ต่างกันได้ จึงต้องดูว่าคำนั้นเป็น noun, verb, adjective หรือ phrase</p></div></div>
+        </div>
+      </div>
+      <div class="example-box card reveal">
+        <span class="pill" style="background:rgba(255,255,255,.12);color:#dffcff">Language Preview</span>
+        <h3>Examples from Unit 7</h3>
+        <p>ตัวอย่างในบทเรียนนี้ช่วยให้นักเรียนฝึกอ่านเชิงวิเคราะห์ เช่น <b>represented by</b> ไม่ได้หมายถึง “ถูกแทนที่ด้วย” แบบง่าย ๆ แต่หมายถึง “แสดงออกมาในรูปของ” ส่วน <b>distinct sections</b> หมายถึง “ส่วนที่แยกชัดเจน” ไม่ใช่ “ส่วนที่โดดเด่น” อย่างเดียว</p>
+        <div class="mini-cards">
+          <div class="mini-card"><b>represented by</b><span>ใช้เพื่อบอกว่า “ในมนุษย์ สิ่งนี้แสดงออกมาในรูปของแขนและขา”</span></div>
+          <div class="mini-card"><b>comprised</b><span>ใช้เพื่อบอกองค์ประกอบหรือการประกอบขึ้นเป็นส่วนใหญ่</span></div>
+          <div class="mini-card"><b>referred to as</b><span>ใช้เพื่อบอกชื่อที่เรียกสิ่งนั้น</span></div>
+          <div class="mini-card"><b>absorb the shock</b><span>ใช้เพื่ออธิบายการรองรับแรงกระแทก</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section spine-section" id="spinelab">
+  <div class="container">
+    <p class="kicker reveal">02 / Interactive spine lab</p>
+    <h2 class="section-title reveal">Tap the spine.<br/><span class="gradient">Learn how it works.</span></h2>
+    <p class="section-desc reveal">ภาพจำลองเพื่อการเรียนรู้ (ไม่ใช่แบบจำลองกายวิภาคตามสัดส่วนจริง) สำหรับอธิบายหัวข้อ <b>A Human Shock Absorber</b> ให้นักเรียนเห็นภาพชัดขึ้น คลิกเลือกส่วนต่าง ๆ ของกระดูกสันหลังเพื่อดูคำอธิบาย บทบาท และคำศัพท์ที่เกี่ยวข้อง</p>
+    <div class="spine-grid">
+      <div class="spine-model-card card reveal">
+        <div class="label-row"><span class="pill">Spine Lab Model</span><span class="smallcaps">click vertebrae · discs · ligaments</span></div>
+        <div class="spine-stage">
+          <div class="stage">
+            <div class="spine-3d" id="spineModel">
+              <div class="spine-core" id="spineCore">
+                <div class="lig-left"></div><div class="lig-right"></div>
+                <div class="vertebra-stack" aria-hidden="true" id="stackBig">
+                  <div class="vertebra"></div><div class="disc"></div><div class="vertebra"></div><div class="disc"></div><div class="vertebra"></div><div class="disc"></div><div class="vertebra"></div><div class="disc"></div><div class="vertebra"></div><div class="disc"></div><div class="vertebra"></div><div class="disc"></div><div class="vertebra"></div><div class="disc"></div><div class="vertebra"></div><div class="disc"></div><div class="vertebra"></div>
+                </div>
+              </div>
+              <button class="hotspot v active" data-part="vertebrae" aria-label="ดูข้อมูล Vertebrae">V</button>
+              <button class="hotspot d" data-part="discs" aria-label="ดูข้อมูล Discs">D</button>
+              <button class="hotspot l" data-part="ligaments" aria-label="ดูข้อมูล Ligaments">L</button>
+            </div>
+          </div>
+          <div class="info-panel" id="partInfo"><h4>Vertebrae</h4><p>กระดูกสันหลังแต่ละชิ้น ทำหน้าที่ค้ำจุนและช่วยปกป้องเส้นประสาท</p><p>คลิก Vertebrae / Discs / Ligaments เพื่อดูรายละเอียดเมื่อหน้าเว็บโหลดเสร็จ</p></div>
+        </div>
+      </div>
+      <div class="intro-card card soft reveal">
+        <span class="pill">Teaching note</span>
+        <h3>How to use this page in class</h3>
+        <p>ครูสามารถใช้หน้านี้นำเข้าสู่บทอ่าน โดยชี้ให้นักเรียนเห็นว่าโครงสร้างหลักของกระดูกสันหลังมีอะไรบ้าง และแต่ละส่วนทำหน้าที่อย่างไร จากนั้นจึงเชื่อมไปสู่การอ่านย่อหน้า <b>A Human Shock Absorber</b></p>
+        <div class="tip-list">
+          <div class="tip"><div class="tip-index">A</div><div><strong>Vertebrae</strong><p>กระดูกชิ้นเล็ก ๆ ที่เรียงต่อกันเป็นแนวสันหลัง ช่วยค้ำจุนและปกป้อง</p></div></div>
+          <div class="tip"><div class="tip-index">B</div><div><strong>Discs</strong><p>หมอนรองกระดูก รูปร่างกลมแบน อยู่ระหว่างกระดูกแต่ละชิ้น ช่วยให้หมุนและเคลื่อนไหวได้</p></div></div>
+          <div class="tip"><div class="tip-index">C</div><div><strong>Ligaments</strong><p>เนื้อเยื่อยืดหยุ่นที่เชื่อมกระดูกและช่วยพยุงข้อต่อให้มั่นคง</p></div></div>
+        </div>
+        <div class="segment-buttons" id="segButtons">
+          <button class="segbtn active" data-part="vertebrae">Vertebrae</button>
+          <button class="segbtn" data-part="discs">Discs</button>
+          <button class="segbtn" data-part="ligaments">Ligaments</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="vocabulary">
+  <div class="container">
+    <p class="kicker reveal">03 / Core vocabulary</p>
+    <h2 class="section-title reveal">40 important words.<br/><span class="gradient">Flip to discover.</span></h2>
+    <p class="section-desc reveal">คำศัพท์สำคัญจริงจาก Unit 7 ครอบคลุมเนื้อหาเรื่องสัตว์มีกระดูกสันหลัง กระดูกสันหลัง การเคลื่อนไหว และการรองรับแรงกระแทก คลิกที่การ์ดเพื่อดูคำอ่าน คำแปล และชนิดคำ</p>
+    <div class="vocab-toolbar reveal"><div class="filterbar" id="vocabFilters"></div><input class="search" id="vocabSearch" type="search" placeholder="ค้นหาคำศัพท์ / ความหมาย / part of speech"/></div>
+    <div id="vocabCount" class="section-desc" style="margin-bottom:18px;font-size:14px">แสดง 40 คำ จากทั้งหมด 40 คำ</div>
+    <div class="word-grid" id="wordGrid"><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#01</span><span class="word-pos">noun</span></div><div><div class="word-en">vertebrate</div><div class="word-pron">คำอ่าน: เวอร์-ทิ-เบรต</div></div><div class="tap-hint">คำแปล: สัตว์มีกระดูกสันหลัง</div></div><div class="flip-face flip-back"><div class="word-thai">สัตว์มีกระดูกสันหลัง</div><div class="word-def">vertebrate · noun</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#02</span><span class="word-pos">noun</span></div><div><div class="word-en">backbone</div><div class="word-pron">คำอ่าน: แบ็ก-โบน</div></div><div class="tap-hint">คำแปล: กระดูกสันหลัง</div></div><div class="flip-face flip-back"><div class="word-thai">กระดูกสันหลัง</div><div class="word-def">backbone · noun</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#03</span><span class="word-pos">noun</span></div><div><div class="word-en">spinal column</div><div class="word-pron">คำอ่าน: สไป-นัล คอ-ลัมน์</div></div><div class="tap-hint">คำแปล: แนวกระดูกสันหลัง</div></div><div class="flip-face flip-back"><div class="word-thai">แนวกระดูกสันหลัง</div><div class="word-def">spinal column · noun</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#04</span><span class="word-pos">noun</span></div><div><div class="word-en">nerve</div><div class="word-pron">คำอ่าน: เนิร์ฟ</div></div><div class="tap-hint">คำแปล: เส้นประสาท</div></div><div class="flip-face flip-back"><div class="word-thai">เส้นประสาท</div><div class="word-def">nerve · noun</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#05</span><span class="word-pos">noun</span></div><div><div class="word-en">muscle</div><div class="word-pron">คำอ่าน: มัส-เซิล</div></div><div class="tap-hint">คำแปล: กล้ามเนื้อ</div></div><div class="flip-face flip-back"><div class="word-thai">กล้ามเนื้อ</div><div class="word-def">muscle · noun</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#06</span><span class="word-pos">noun</span></div><div><div class="word-en">limb</div><div class="word-pron">คำอ่าน: ลิมบ์</div></div><div class="tap-hint">คำแปล: แขนหรือขา / อวัยวะส่วนปลาย</div></div><div class="flip-face flip-back"><div class="word-thai">แขนหรือขา / อวัยวะส่วนปลาย</div><div class="word-def">limb · noun</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#07</span><span class="word-pos">noun</span></div><div><div class="word-en">mammal</div><div class="word-pron">คำอ่าน: แมม-เมิล</div></div><div class="tap-hint">คำแปล: สัตว์เลี้ยงลูกด้วยนม</div></div><div class="flip-face flip-back"><div class="word-thai">สัตว์เลี้ยงลูกด้วยนม</div><div class="word-def">mammal · noun</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#08</span><span class="word-pos">noun</span></div><div><div class="word-en">reptile</div><div class="word-pron">คำอ่าน: เรพ-ไทล์</div></div><div class="tap-hint">คำแปล: สัตว์เลื้อยคลาน</div></div><div class="flip-face flip-back"><div class="word-thai">สัตว์เลื้อยคลาน</div><div class="word-def">reptile · noun</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#09</span><span class="word-pos">noun</span></div><div><div class="word-en">bird</div><div class="word-pron">คำอ่าน: เบิร์ด</div></div><div class="tap-hint">คำแปล: นก</div></div><div class="flip-face flip-back"><div class="word-thai">นก</div><div class="word-def">bird · noun</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#10</span><span class="word-pos">noun</span></div><div><div class="word-en">fish</div><div class="word-pron">คำอ่าน: ฟิช</div></div><div class="tap-hint">คำแปล: ปลา</div></div><div class="flip-face flip-back"><div class="word-thai">ปลา</div><div class="word-def">fish · noun</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#11</span><span class="word-pos">noun</span></div><div><div class="word-en">species</div><div class="word-pron">คำอ่าน: สปี-ชีส</div></div><div class="tap-hint">คำแปล: ชนิด / สายพันธุ์</div></div><div class="flip-face flip-back"><div class="word-thai">ชนิด / สายพันธุ์</div><div class="word-def">species · noun</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#12</span><span class="word-pos">verb</span></div><div><div class="word-en">protect</div><div class="word-pron">คำอ่าน: พระ-เทคท์</div></div><div class="tap-hint">คำแปล: ปกป้อง</div></div><div class="flip-face flip-back"><div class="word-thai">ปกป้อง</div><div class="word-def">protect · verb</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#13</span><span class="word-pos">verb</span></div><div><div class="word-en">support</div><div class="word-pron">คำอ่าน: ซะ-พอร์ท</div></div><div class="tap-hint">คำแปล: ค้ำจุน / รองรับ / สนับสนุน</div></div><div class="flip-face flip-back"><div class="word-thai">ค้ำจุน / รองรับ / สนับสนุน</div><div class="word-def">support · verb</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#14</span><span class="word-pos">verb / noun</span></div><div><div class="word-en">damage</div><div class="word-pron">คำอ่าน: แดม-เมจ</div></div><div class="tap-hint">คำแปล: ทำให้เสียหาย / ความเสียหาย</div></div><div class="flip-face flip-back"><div class="word-thai">ทำให้เสียหาย / ความเสียหาย</div><div class="word-def">damage · verb / noun</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#15</span><span class="word-pos">adjective</span></div><div><div class="word-en">advanced</div><div class="word-pron">คำอ่าน: แอด-แวนซ์ด</div></div><div class="tap-hint">คำแปล: ก้าวหน้า / ซับซ้อนมากขึ้น</div></div><div class="flip-face flip-back"><div class="word-thai">ก้าวหน้า / ซับซ้อนมากขึ้น</div><div class="word-def">advanced · adjective</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#16</span><span class="word-pos">noun</span></div><div><div class="word-en">creature</div><div class="word-pron">คำอ่าน: ครี-เชอร์</div></div><div class="tap-hint">คำแปล: สิ่งมีชีวิต</div></div><div class="flip-face flip-back"><div class="word-thai">สิ่งมีชีวิต</div><div class="word-def">creature · noun</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#17</span><span class="word-pos">verb</span></div><div><div class="word-en">evolve</div><div class="word-pron">คำอ่าน: อิ-วอล์ฟ</div></div><div class="tap-hint">คำแปล: วิวัฒนาการ</div></div><div class="flip-face flip-back"><div class="word-thai">วิวัฒนาการ</div><div class="word-def">evolve · verb</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#18</span><span class="word-pos">verb</span></div><div><div class="word-en">comprise</div><div class="word-pron">คำอ่าน: คัม-ไพรซ</div></div><div class="tap-hint">คำแปล: ประกอบด้วย / เป็นส่วนใหญ่</div></div><div class="flip-face flip-back"><div class="word-thai">ประกอบด้วย / เป็นส่วนใหญ่</div><div class="word-def">comprise · verb</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#19</span><span class="word-pos">noun</span></div><div><div class="word-en">majority</div><div class="word-pron">คำอ่าน: มะ-จอ-ริ-ที</div></div><div class="tap-hint">คำแปล: ส่วนใหญ่</div></div><div class="flip-face flip-back"><div class="word-thai">ส่วนใหญ่</div><div class="word-def">majority · noun</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#20</span><span class="word-pos">verb</span></div><div><div class="word-en">represent</div><div class="word-pron">คำอ่าน: เรพ-ริ-เซนท์</div></div><div class="tap-hint">คำแปล: แสดงให้เห็น / เป็นตัวแทน</div></div><div class="flip-face flip-back"><div class="word-thai">แสดงให้เห็น / เป็นตัวแทน</div><div class="word-def">represent · verb</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#21</span><span class="word-pos">noun</span></div><div><div class="word-en">steering</div><div class="word-pron">คำอ่าน: สเทีย-ริง</div></div><div class="tap-hint">คำแปล: การบังคับทิศทาง</div></div><div class="flip-face flip-back"><div class="word-thai">การบังคับทิศทาง</div><div class="word-def">steering · noun</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#22</span><span class="word-pos">noun</span></div><div><div class="word-en">environment</div><div class="word-pron">คำอ่าน: เอ็น-ไว-เออะ-เมินท์</div></div><div class="tap-hint">คำแปล: สภาพแวดล้อม</div></div><div class="flip-face flip-back"><div class="word-thai">สภาพแวดล้อม</div><div class="word-def">environment · noun</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#23</span><span class="word-pos">noun</span></div><div><div class="word-en">condition</div><div class="word-pron">คำอ่าน: คัน-ดิ-เชิน</div></div><div class="tap-hint">คำแปล: สภาพ / เงื่อนไข</div></div><div class="flip-face flip-back"><div class="word-thai">สภาพ / เงื่อนไข</div><div class="word-def">condition · noun</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#24</span><span class="word-pos">adjective</span></div><div><div class="word-en">mobile</div><div class="word-pron">คำอ่าน: โม-ไบล์</div></div><div class="tap-hint">คำแปล: เคลื่อนที่ได้</div></div><div class="flip-face flip-back"><div class="word-thai">เคลื่อนที่ได้</div><div class="word-def">mobile · adjective</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#25</span><span class="word-pos">adjective</span></div><div><div class="word-en">essential</div><div class="word-pron">คำอ่าน: อิ-เซน-เชิล</div></div><div class="tap-hint">คำแปล: จำเป็น / สำคัญมาก</div></div><div class="flip-face flip-back"><div class="word-thai">จำเป็น / สำคัญมาก</div><div class="word-def">essential · adjective</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#26</span><span class="word-pos">phrase</span></div><div><div class="word-en">referred to as</div><div class="word-pron">คำอ่าน: ริ-เฟิร์ด ทู แอส</div></div><div class="tap-hint">คำแปล: เรียกว่า</div></div><div class="flip-face flip-back"><div class="word-thai">เรียกว่า</div><div class="word-def">referred to as · phrase</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#27</span><span class="word-pos">adjective</span></div><div><div class="word-en">circular</div><div class="word-pron">คำอ่าน: เซอร์-คิว-เลอะ</div></div><div class="tap-hint">คำแปล: เป็นวงกลม</div></div><div class="flip-face flip-back"><div class="word-thai">เป็นวงกลม</div><div class="word-def">circular · adjective</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#28</span><span class="word-pos">noun</span></div><div><div class="word-en">disc</div><div class="word-pron">คำอ่าน: ดิสก์</div></div><div class="tap-hint">คำแปล: หมอนรองกระดูก / แผ่นกลม</div></div><div class="flip-face flip-back"><div class="word-thai">หมอนรองกระดูก / แผ่นกลม</div><div class="word-def">disc · noun</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#29</span><span class="word-pos">adjective</span></div><div><div class="word-en">distinct</div><div class="word-pron">คำอ่าน: ดิ-สทิงคท์</div></div><div class="tap-hint">คำแปล: ชัดเจน / แยกออกได้</div></div><div class="flip-face flip-back"><div class="word-thai">ชัดเจน / แยกออกได้</div><div class="word-def">distinct · adjective</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#30</span><span class="word-pos">verb</span></div><div><div class="word-en">rotate</div><div class="word-pron">คำอ่าน: โร-เทท</div></div><div class="tap-hint">คำแปล: หมุน</div></div><div class="flip-face flip-back"><div class="word-thai">หมุน</div><div class="word-def">rotate · verb</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#31</span><span class="word-pos">noun</span></div><div><div class="word-en">ligament</div><div class="word-pron">คำอ่าน: ลิ-กะ-เมินท์</div></div><div class="tap-hint">คำแปล: เอ็นยึดกระดูก</div></div><div class="flip-face flip-back"><div class="word-thai">เอ็นยึดกระดูก</div><div class="word-def">ligament · noun</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#32</span><span class="word-pos">noun</span></div><div><div class="word-en">tissue</div><div class="word-pron">คำอ่าน: ทิช-ชู</div></div><div class="tap-hint">คำแปล: เนื้อเยื่อ</div></div><div class="flip-face flip-back"><div class="word-thai">เนื้อเยื่อ</div><div class="word-def">tissue · noun</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#33</span><span class="word-pos">verb</span></div><div><div class="word-en">stretch</div><div class="word-pron">คำอ่าน: สเทรทช์</div></div><div class="tap-hint">คำแปล: ยืด / ยืดออก</div></div><div class="flip-face flip-back"><div class="word-thai">ยืด / ยืดออก</div><div class="word-def">stretch · verb</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#34</span><span class="word-pos">verb</span></div><div><div class="word-en">absorb</div><div class="word-pron">คำอ่าน: แอบ-ซอร์บ</div></div><div class="tap-hint">คำแปล: ดูดซับ / รองรับ</div></div><div class="flip-face flip-back"><div class="word-thai">ดูดซับ / รองรับ</div><div class="word-def">absorb · verb</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#35</span><span class="word-pos">noun</span></div><div><div class="word-en">shock</div><div class="word-pron">คำอ่าน: ช็อก</div></div><div class="tap-hint">คำแปล: แรงกระแทก</div></div><div class="flip-face flip-back"><div class="word-thai">แรงกระแทก</div><div class="word-def">shock · noun</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#36</span><span class="word-pos">noun</span></div><div><div class="word-en">joint</div><div class="word-pron">คำอ่าน: จอยน์ท</div></div><div class="tap-hint">คำแปล: ข้อต่อ</div></div><div class="flip-face flip-back"><div class="word-thai">ข้อต่อ</div><div class="word-def">joint · noun</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#37</span><span class="word-pos">verb</span></div><div><div class="word-en">bend</div><div class="word-pron">คำอ่าน: เบนด์</div></div><div class="tap-hint">คำแปล: งอ</div></div><div class="flip-face flip-back"><div class="word-thai">งอ</div><div class="word-def">bend · verb</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#38</span><span class="word-pos">verb</span></div><div><div class="word-en">twist</div><div class="word-pron">คำอ่าน: ทวิสต์</div></div><div class="tap-hint">คำแปล: บิด</div></div><div class="flip-face flip-back"><div class="word-thai">บิด</div><div class="word-def">twist · verb</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#39</span><span class="word-pos">noun</span></div><div><div class="word-en">spinal cord</div><div class="word-pron">คำอ่าน: สไป-นัล คอร์ด</div></div><div class="tap-hint">คำแปล: ไขสันหลัง</div></div><div class="flip-face flip-back"><div class="word-thai">ไขสันหลัง</div><div class="word-def">spinal cord · noun</div></div></div></div><div class="flip-card" tabindex="0"><div class="flip-inner"><div class="flip-face"><div class="word-top"><span class="word-no">#40</span><span class="word-pos">noun</span></div><div><div class="word-en">skeleton</div><div class="word-pron">คำอ่าน: สเค-ละ-เทิน</div></div><div class="tap-hint">คำแปล: โครงกระดูก</div></div><div class="flip-face flip-back"><div class="word-thai">โครงกระดูก</div><div class="word-def">skeleton · noun</div></div></div></div></div>
+  </div>
+</section>
+
+<section class="section game-section" id="quiz">
+  <div class="container">
+    <p class="kicker reveal">04 / Scored game</p>
+    <h2 class="section-title reveal">Vocabulary Challenge.<br/><span class="gradient">Collect the score.</span></h2>
+    <p class="section-desc reveal">เกมฝึกเลือกคำศัพท์แบบเก็บคะแนน นักเรียนเลือกความหมายที่ถูกต้องของคำศัพท์แต่ละคำ ระบบจะคำนวณคะแนนให้ทันที</p>
+    <div class="pill" id="quizRuntimeStatus" role="status" aria-live="polite" style="margin-bottom:16px">กำลังเริ่มเกม — หากข้อความนี้ค้าง กรุณารีเฟรชหน้าเว็บ</div>
+    <div id="gameDiagnostics" role="status" aria-live="polite">ระบบเกมกำลังเริ่มทำงาน</div>
+    <div class="quiz-shell card reveal show">
+      <div class="quiz-head"><div><span class="pill">Quiz Game</span><h3>Choose the correct meaning</h3></div><div class="scorebox"><div class="scorepill"><span>score</span><b id="quizScore">0</b></div><div class="scorepill"><span>question</span><b id="quizProgress">1 / 10</b></div></div></div>
+      <div class="quiz-q">
+        <div class="label">Unit 7 vocabulary</div>
+        <h4 id="quizWord">vertebrate</h4>
+        <p id="quizPron">เวอร์-ทิ-เบรต · noun</p>
+      </div>
+      <div class="choices" id="quizChoices"><button class="choice" type="button" data-g4-choice="0">สัตว์มีกระดูกสันหลัง</button><button class="choice" type="button" data-g4-choice="1">เส้นประสาท</button><button class="choice" type="button" data-g4-choice="2">กล้ามเนื้อ</button><button class="choice" type="button" data-g4-choice="3">หมอนรองกระดูก</button></div>
+      <div class="quiz-feedback" id="quizFeedback"></div>
+      <div class="quiz-actions"><button class="btn btn-white" id="nextQuiz">Next Question</button><button class="secondary" id="resetQuiz">Reset Quiz</button></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="memory">
+  <div class="container">
+    <p class="kicker reveal">05 / Matching memory</p>
+    <h2 class="section-title reveal">Flip & Match.<br/><span class="gradient">Train your memory.</span></h2>
+    <p class="section-desc reveal">เกมพลิกป้ายจับคู่คำศัพท์กับความหมาย จับคู่ให้ครบทั้งหมดเพื่อทบทวนคำที่สำคัญ</p>
+    <div class="pill" id="memoryRuntimeStatus" role="status" aria-live="polite" style="margin-bottom:16px">กำลังเริ่มเกม — หากข้อความนี้ค้าง กรุณารีเฟรชหน้าเว็บ</div>
+    <div class="memory-shell card reveal show">
+      <div class="memory-head"><div><span class="pill">Memory Game</span><h3>Match the word with the meaning</h3></div><div class="scorebox"><div class="scorepill"><span>moves</span><b id="memMoves">0</b></div><div class="scorepill"><span>matched</span><b id="memMatched">0 / 8</b></div></div></div>
+      <div class="memory-grid" id="memoryGrid"><button class="memory-card" data-g4-index="0" type="button" aria-label="พลิกป้าย 1"><div class="memory-inner"><div class="memory-face memory-front">🦴</div><div class="memory-face memory-back">vertebrate</div></div></button><button class="memory-card" data-g4-index="1" type="button" aria-label="พลิกป้าย 2"><div class="memory-inner"><div class="memory-face memory-front">🦴</div><div class="memory-face memory-back">สัตว์มีกระดูกสันหลัง</div></div></button><button class="memory-card" data-g4-index="2" type="button" aria-label="พลิกป้าย 3"><div class="memory-inner"><div class="memory-face memory-front">🦴</div><div class="memory-face memory-back">backbone</div></div></button><button class="memory-card" data-g4-index="3" type="button" aria-label="พลิกป้าย 4"><div class="memory-inner"><div class="memory-face memory-front">🦴</div><div class="memory-face memory-back">กระดูกสันหลัง</div></div></button><button class="memory-card" data-g4-index="4" type="button" aria-label="พลิกป้าย 5"><div class="memory-inner"><div class="memory-face memory-front">🦴</div><div class="memory-face memory-back">disc</div></div></button><button class="memory-card" data-g4-index="5" type="button" aria-label="พลิกป้าย 6"><div class="memory-inner"><div class="memory-face memory-front">🦴</div><div class="memory-face memory-back">หมอนรองกระดูก / แผ่นกลม</div></div></button><button class="memory-card" data-g4-index="6" type="button" aria-label="พลิกป้าย 7"><div class="memory-inner"><div class="memory-face memory-front">🦴</div><div class="memory-face memory-back">ligament</div></div></button><button class="memory-card" data-g4-index="7" type="button" aria-label="พลิกป้าย 8"><div class="memory-inner"><div class="memory-face memory-front">🦴</div><div class="memory-face memory-back">เอ็นยึดกระดูก</div></div></button><button class="memory-card" data-g4-index="8" type="button" aria-label="พลิกป้าย 9"><div class="memory-inner"><div class="memory-face memory-front">🦴</div><div class="memory-face memory-back">muscle</div></div></button><button class="memory-card" data-g4-index="9" type="button" aria-label="พลิกป้าย 10"><div class="memory-inner"><div class="memory-face memory-front">🦴</div><div class="memory-face memory-back">กล้ามเนื้อ</div></div></button><button class="memory-card" data-g4-index="10" type="button" aria-label="พลิกป้าย 11"><div class="memory-inner"><div class="memory-face memory-front">🦴</div><div class="memory-face memory-back">nerve</div></div></button><button class="memory-card" data-g4-index="11" type="button" aria-label="พลิกป้าย 12"><div class="memory-inner"><div class="memory-face memory-front">🦴</div><div class="memory-face memory-back">เส้นประสาท</div></div></button><button class="memory-card" data-g4-index="12" type="button" aria-label="พลิกป้าย 13"><div class="memory-inner"><div class="memory-face memory-front">🦴</div><div class="memory-face memory-back">absorb</div></div></button><button class="memory-card" data-g4-index="13" type="button" aria-label="พลิกป้าย 14"><div class="memory-inner"><div class="memory-face memory-front">🦴</div><div class="memory-face memory-back">ดูดซับ / รองรับ</div></div></button><button class="memory-card" data-g4-index="14" type="button" aria-label="พลิกป้าย 15"><div class="memory-inner"><div class="memory-face memory-front">🦴</div><div class="memory-face memory-back">rotate</div></div></button><button class="memory-card" data-g4-index="15" type="button" aria-label="พลิกป้าย 16"><div class="memory-inner"><div class="memory-face memory-front">🦴</div><div class="memory-face memory-back">หมุน</div></div></button></div>
+      <div class="quiz-actions" style="margin-top:18px"><button class="secondary" id="resetMemory">Reset Memory Game</button></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="reading">
+  <div class="container">
+    <p class="kicker reveal">06 / Reading passage</p>
+    <h2 class="section-title reveal">Read in two ways.<br/><span class="gradient">Paragraphs & sentences.</span></h2>
+    <p class="section-desc reveal">ส่วนนี้แยกเป็น 2 มุมมอง คือ บทอ่านพร้อมคำแปลเป็นย่อหน้า และบทอ่านพร้อมคำแปลเป็นประโยค เพื่อใช้สอนทั้งภาพรวมและรายประโยค</p>
+    <div class="tabbar reveal" id="readingTabs"><button class="active" data-topic="p1">Section 1 · Their Role and Function</button><button data-topic="p2">Section 2 · Characteristics</button><button data-topic="p3">Section 3 · A Human Shock Absorber</button></div>
+    <div class="reading-grid">
+      <div class="reading-visual card reveal" id="readingVisual"><div style="font-size:92px;text-align:center">🦴</div></div>
+      <div class="reading-card card reveal">
+        <span class="badge" id="passageBadge">Passage 1</span>
+        <h3 id="readingTitle">Vertebrates: Their Role and Function</h3>
+        <h4 id="readingThaiTitle">สัตว์มีกระดูกสันหลัง: บทบาทและหน้าที่</h4>
+        <div class="reading-columns" id="readingParagraphs"><div class="para-box"><b>Paragraph 1</b><p>One of the most essential parts of our bodies is our backbone. This is the set of bones that runs along the center of our back, connecting to our brain at the top.</p><p class="thai" style="margin-top:10px">ส่วนที่สำคัญมากที่สุดส่วนหนึ่งของร่างกายเราคือกระดูกสันหลัง กระดูกสันหลังคือชุดของกระดูกที่พาดยาวตามแนวกลางหลังของเรา และเชื่อมต่อกับสมองที่ด้านบน</p></div><div class="para-box"><b>Paragraph 2</b><p>All living species that have a backbone are called vertebrates. All mammals, birds and most reptiles are in the vertebrate category. This even includes fish with bones.</p><p class="thai" style="margin-top:10px">สิ่งมีชีวิตทุกชนิดที่มีกระดูกสันหลังเรียกว่า vertebrates หรือสัตว์มีกระดูกสันหลัง สัตว์เลี้ยงลูกด้วยนม นก และสัตว์เลื้อยคลานส่วนใหญ่จัดอยู่ในกลุ่มนี้ รวมถึงปลาที่มีกระดูกด้วย</p></div><div class="para-box"><b>Paragraph 3</b><p>The backbone is sometimes called a spinal column. It runs down the back of the animal and protects and supports the nerves inside. This is just like a plastic pipe protecting electrical cables inside your home.</p><p class="thai" style="margin-top:10px">กระดูกสันหลังบางครั้งเรียกว่า spinal column มันพาดลงมาตามด้านหลังของสัตว์ และช่วยปกป้องพร้อมทั้งค้ำจุนเส้นประสาทที่อยู่ภายใน ซึ่งเปรียบได้กับท่อพลาสติกที่ปกป้องสายไฟภายในบ้าน</p></div><div class="para-box"><b>Paragraph 4</b><p>Without this protective backbone, our nerves that connect with our muscles, arms and legs could easily be damaged.</p><p class="thai" style="margin-top:10px">หากไม่มีกระดูกสันหลังที่ช่วยปกป้องนี้ เส้นประสาทของเราที่เชื่อมกับกล้ามเนื้อ แขน และขา อาจได้รับความเสียหายได้ง่าย</p></div></div>
+      </div>
+    </div>
+    <div class="reading-card card soft reveal" style="margin-top:20px">
+      <span class="badge">Sentence by sentence</span>
+      <h3 style="margin-top:12px">Sentence Translation View</h3>
+      <div class="sents" id="sentenceList"><div class="sent-box"><b>Section 1</b><p>One of the most essential parts of our bodies is our backbone. This is the set of bones that runs along the center of our back, connecting to our brain at the top.</p><p class="thai" style="margin-top:10px">ส่วนที่สำคัญมากที่สุดส่วนหนึ่งของร่างกายเราคือกระดูกสันหลัง กระดูกสันหลังคือชุดของกระดูกที่พาดยาวตามแนวกลางหลังของเรา และเชื่อมต่อกับสมองที่ด้านบน</p></div><div class="sent-box"><b>Section 2</b><p>All living species that have a backbone are called vertebrates. All mammals, birds and most reptiles are in the vertebrate category. This even includes fish with bones.</p><p class="thai" style="margin-top:10px">สิ่งมีชีวิตทุกชนิดที่มีกระดูกสันหลังเรียกว่า vertebrates หรือสัตว์มีกระดูกสันหลัง สัตว์เลี้ยงลูกด้วยนม นก และสัตว์เลื้อยคลานส่วนใหญ่จัดอยู่ในกลุ่มนี้ รวมถึงปลาที่มีกระดูกด้วย</p></div><div class="sent-box"><b>Section 3</b><p>The backbone is sometimes called a spinal column. It runs down the back of the animal and protects and supports the nerves inside. This is just like a plastic pipe protecting electrical cables inside your home.</p><p class="thai" style="margin-top:10px">กระดูกสันหลังบางครั้งเรียกว่า spinal column มันพาดลงมาตามด้านหลังของสัตว์ และช่วยปกป้องพร้อมทั้งค้ำจุนเส้นประสาทที่อยู่ภายใน ซึ่งเปรียบได้กับท่อพลาสติกที่ปกป้องสายไฟภายในบ้าน</p></div><div class="sent-box"><b>Section 4</b><p>Without this protective backbone, our nerves that connect with our muscles, arms and legs could easily be damaged.</p><p class="thai" style="margin-top:10px">หากไม่มีกระดูกสันหลังที่ช่วยปกป้องนี้ เส้นประสาทของเราที่เชื่อมกับกล้ามเนื้อ แขน และขา อาจได้รับความเสียหายได้ง่าย</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="analysis">
+  <div class="container">
+    <p class="kicker reveal">07 / Language focus</p>
+    <h2 class="section-title reveal">Analyze the phrases.<br/><span class="gradient">Understand the passage deeply.</span></h2>
+    <p class="section-desc reveal">วิเคราะห์วลีและคำสำคัญจากบทอ่าน เพื่อช่วยให้นักเรียนเข้าใจความหมายเชิงบริบทและนำไปตอบคำถามได้แม่นยำขึ้น</p>
+    <div class="analysis-grid">
+      <div class="analysis-card card reveal">
+        <h3>Key language from the passage</h3>
+        <div id="analysisList"></div>
+      </div>
+      <div class="analysis-card card soft reveal">
+        <h3>Teacher explanation</h3>
+        <div class="go-box" style="margin-bottom:14px"><h4>represented by</h4><p>หมายถึง “แสดงออกมาในรูปของ” เช่น ในมนุษย์ two pairs of limbs are represented by arms and legs.</p></div>
+        <div class="go-box" style="margin-bottom:14px"><h4>referred to as</h4><p>หมายถึง “เรียกว่า” ใช้เพื่อให้ชื่อของสิ่งใดสิ่งหนึ่ง เช่น bones referred to as vertebrae.</p></div>
+        <div class="go-box" style="margin-bottom:14px"><h4>distinct sections</h4><p>หมายถึง “ส่วนที่แยกออกจากกันอย่างชัดเจน” ในที่นี้ใช้กับส่วนต่าง ๆ ของกระดูกสันหลัง</p></div>
+        <div class="go-box"><h4>absorb the shock</h4><p>หมายถึง “ดูดซับ / รองรับแรงกระแทก” เป็นหน้าที่ของ vertebrae, discs, and ligaments เมื่อมีการกระโดด ล้ม หรือกระแทกพื้น</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="exercise">
+  <div class="container">
+    <p class="kicker reveal">08 / Practice with answers</p>
+    <h2 class="section-title reveal">Try the exercises.<br/><span class="gradient">Then check the reasons.</span></h2>
+    <p class="section-desc reveal">แบบฝึกหัดจากบทเรียนพร้อมเฉลยและเหตุผล ครูสามารถใช้ทำระหว่างคาบ หรือให้นักเรียนตรวจคำตอบด้วยตนเอง</p>
+    <div class="exercise-grid">
+      <div class="exercise-card card reveal">
+        <span class="pill">Reading Skill Questions</span>
+        <h3>Reading Skill</h3>
+        <div id="readingSkillBox"></div>
+      </div>
+      <div class="exercise-card card reveal">
+        <span class="pill">Comprehension Questions</span>
+        <h3>Comprehension</h3>
+        <div id="comprehensionBox"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="summary">
+  <div class="container">
+    <p class="kicker reveal">09 / Summary</p>
+    <h2 class="section-title reveal">Complete the summary.<br/><span class="gradient">Fill in the blanks.</span></h2>
+    <p class="section-desc reveal">ให้นักเรียนใช้คำศัพท์จากคลังคำศัพท์ด้านล่างเติมลงในช่องว่าง แล้วกดตรวจคำตอบ</p>
+    <div class="summary-grid">
+      <div class="summary-card card reveal">
+        <span class="pill">Word bank</span>
+        <div class="summary-wordbank" id="wordBank"></div>
+        <div class="summary-cloze">
+          <div class="blankline">One of the most essential parts of our bodies is our <input data-answer="backbone" placeholder="blank 1"/> . It runs along the center of our back, <input data-answer="connecting to" placeholder="blank 2"/> our brain at the top.</div>
+          <div class="blankline">Without this protective backbone, our <input data-answer="nerves" placeholder="blank 3"/> that connect to our muscles, arms and legs could easily be damaged.</div>
+          <div class="blankline">Inside the spinal column of a human, there are 24 <input data-answer="bones" placeholder="blank 4"/> referred to as vertebrae. Between each vertebra bone is a circular-shaped <input data-answer="disc" placeholder="blank 5"/> .</div>
+          <div class="blankline">These discs <input data-answer="rotate" placeholder="blank 6"/> as your body moves. When a person falls or lands on the ground, the vertebrae, discs and ligaments <input data-answer="absorb" placeholder="blank 7"/> the shock.</div>
+        </div>
+        <div class="quiz-actions"><button class="btn btn-white" id="checkSummary">Check Summary</button><button class="secondary" id="resetSummary">Reset</button></div>
+        <div class="summary-result" id="summaryResult"></div>
+      </div>
+      <div class="summary-card card soft reveal">
+        <h3>Thai summary guide</h3>
+        <div class="go-box"><p>กระดูกสันหลังเป็นส่วนสำคัญมากของร่างกาย มันพาดยาวตามแนวกลางหลังและเชื่อมต่อกับสมองด้านบน ภายในแนวกระดูกสันหลังมีเส้นประสาทและกระดูกที่เรียกว่า vertebrae ระหว่างกระดูกแต่ละชิ้นมีหมอนรองกระดูก หรือ disc ซึ่งช่วยให้ร่างกายหมุนและเคลื่อนไหวได้ เมื่อร่างกายกระแทกพื้น vertebrae, discs และ ligaments จะช่วยรองรับแรงกระแทก</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="graphic">
+  <div class="container">
+    <p class="kicker reveal">10 / Graphic organizer</p>
+    <h2 class="section-title reveal">Organize the key ideas.<br/><span class="gradient">Words · facts · functions.</span></h2>
+    <p class="section-desc reveal">Graphic Organizer ช่วยให้นักเรียนสรุปความคิดสำคัญและคำศัพท์ท้าทายจากบทอ่านได้อย่างเป็นระบบ</p>
+    <div class="graphic-grid">
+      <div class="graphic-card card reveal">
+        <h3>Challenging words from the passage</h3>
+        <div class="go-box" style="margin-bottom:14px"><h4>vertebrate</h4><p>any living creature with a backbone or spine<br/>สิ่งมีชีวิตที่มีกระดูกสันหลัง</p></div>
+        <div class="go-box" style="margin-bottom:14px"><h4>backbone</h4><p>the set of bones that runs along the center of the back<br/>ชุดกระดูกที่พาดตามแนวกลางหลัง</p></div>
+        <div class="go-box" style="margin-bottom:14px"><h4>comprised</h4><p>formed or made up of / consisted mostly of<br/>ประกอบขึ้นเป็น / มีเป็นส่วนใหญ่</p></div>
+        <div class="go-box"><h4>shock absorber</h4><p>something that reduces the force of a hit or fall<br/>สิ่งที่ช่วยลดหรือรองรับแรงกระแทก</p></div>
+      </div>
+      <div class="graphic-card card soft reveal">
+        <h3>Concept map</h3>
+        <div class="go-box" style="margin-bottom:14px"><h4>Main topic</h4><p><b>Vertebrates and the backbone</b></p></div>
+        <div class="go-box" style="margin-bottom:14px"><h4>Key facts</h4><ul><li>Vertebrates have a backbone.</li><li>The backbone protects nerves.</li><li>Most vertebrates have muscles and skeletons.</li><li>Fish use fins for steering.</li><li>Vertebrae, discs and ligaments work together.</li></ul></div>
+        <div class="go-box"><h4>Main function of the spinal system</h4><ul><li>support the body</li><li>protect nerves</li><li>allow movement</li><li>absorb shock</li></ul></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-card">
+    <div><b>SPINE STUDIO · Unit 7</b><span>สื่อการสอนสำหรับครูและนักเรียน · Topic: Vertebrates: Their Role and Function</span></div>
+    <div><span>Sections included: Analyzing Language · Spine Lab · Vocabulary 40 Words · Scored Quiz · Matching Memory · Reading & Translation · Practice · Summary · Graphic Organizer</span></div>
+  </div>
+</footer>
+
+<script>
+window.addEventListener('error', function(e) {
+  var b=document.getElementById('siteStatus');
+  if (b && e.message) { b.textContent='⚠️ โปรแกรมหน้าเว็บทำงานไม่สมบูรณ์: '+e.message+' — เนื้อหาหลักยังแสดงอยู่'; b.style.background='rgba(251,113,133,.15)'; }
+});
+window.addEventListener('unhandledrejection', function(e) {
+  var b=document.getElementById('siteStatus');
+  if (b) { b.textContent='⚠️ โหลดกิจกรรมไม่สำเร็จ: '+String(e.reason||'Unknown error'); b.style.background='rgba(251,113,133,.15)'; }
+});
+</script>
+<script>
+const spineParts = {
+  vertebrae:{title:'Vertebrae', thai:'กระดูกสันหลังแต่ละชิ้น', desc:'Vertebrae are the individual bones inside the spinal column. In the passage, there are 24 bones referred to as vertebrae. They support the body and protect the nerves inside the spinal column.', points:['หน้าที่หลัก: support the body and protect the nerves','ในบทอ่านกล่าวว่า vertebrae เป็นกระดูก 24 ชิ้นในแนวกระดูกสันหลังของมนุษย์','ทำงานร่วมกับ discs และ ligaments เพื่อช่วยให้ร่างกายเคลื่อนไหวได้'], accent:'#67e8f9'},
+  discs:{title:'Discs', thai:'หมอนรองกระดูก', desc:'Discs are circular-shaped parts between each vertebra. They rotate or move as the body moves and help the body twist and bend more easily.', points:['อยู่ระหว่าง vertebrae แต่ละชิ้น','รูปทรงกลมแบน circular-shaped','ช่วยให้หมุน บิด และเคลื่อนไหว พร้อมรองรับแรงกระแทกบางส่วน'], accent:'#fde68a'},
+  ligaments:{title:'Ligaments', thai:'เอ็นยึดกระดูก / เอ็นยึดข้อ', desc:'Ligaments are stretchy tissue that connect bones and discs together. They work like elastic bands and help absorb the shock when a person lands or falls.', points:['เป็น tissue ที่ยืดหยุ่นได้','เปรียบเหมือน elastic band','ช่วยยึดส่วนต่าง ๆ เข้าด้วยกันและ absorb the shock'], accent:'#fda4af'}
+};
+
+const vocabData = [
+{word:'vertebrate',pron:'เวอร์-ทิ-เบรต',thai:'สัตว์มีกระดูกสันหลัง',pos:'noun'},
+{word:'backbone',pron:'แบ็ก-โบน',thai:'กระดูกสันหลัง',pos:'noun'},
+{word:'spinal column',pron:'สไป-นัล คอ-ลัมน์',thai:'แนวกระดูกสันหลัง',pos:'noun'},
+{word:'nerve',pron:'เนิร์ฟ',thai:'เส้นประสาท',pos:'noun'},
+{word:'muscle',pron:'มัส-เซิล',thai:'กล้ามเนื้อ',pos:'noun'},
+{word:'limb',pron:'ลิมบ์',thai:'แขนหรือขา / อวัยวะส่วนปลาย',pos:'noun'},
+{word:'mammal',pron:'แมม-เมิล',thai:'สัตว์เลี้ยงลูกด้วยนม',pos:'noun'},
+{word:'reptile',pron:'เรพ-ไทล์',thai:'สัตว์เลื้อยคลาน',pos:'noun'},
+{word:'bird',pron:'เบิร์ด',thai:'นก',pos:'noun'},
+{word:'fish',pron:'ฟิช',thai:'ปลา',pos:'noun'},
+{word:'species',pron:'สปี-ชีส',thai:'ชนิด / สายพันธุ์',pos:'noun'},
+{word:'protect',pron:'พระ-เทคท์',thai:'ปกป้อง',pos:'verb'},
+{word:'support',pron:'ซะ-พอร์ท',thai:'ค้ำจุน / รองรับ / สนับสนุน',pos:'verb'},
+{word:'damage',pron:'แดม-เมจ',thai:'ทำให้เสียหาย / ความเสียหาย',pos:'verb / noun'},
+{word:'advanced',pron:'แอด-แวนซ์ด',thai:'ก้าวหน้า / ซับซ้อนมากขึ้น',pos:'adjective'},
+{word:'creature',pron:'ครี-เชอร์',thai:'สิ่งมีชีวิต',pos:'noun'},
+{word:'evolve',pron:'อิ-วอล์ฟ',thai:'วิวัฒนาการ',pos:'verb'},
+{word:'comprise',pron:'คัม-ไพรซ',thai:'ประกอบด้วย / เป็นส่วนใหญ่',pos:'verb'},
+{word:'majority',pron:'มะ-จอ-ริ-ที',thai:'ส่วนใหญ่',pos:'noun'},
+{word:'represent',pron:'เรพ-ริ-เซนท์',thai:'แสดงให้เห็น / เป็นตัวแทน',pos:'verb'},
+{word:'steering',pron:'สเทีย-ริง',thai:'การบังคับทิศทาง',pos:'noun'},
+{word:'environment',pron:'เอ็น-ไว-เออะ-เมินท์',thai:'สภาพแวดล้อม',pos:'noun'},
+{word:'condition',pron:'คัน-ดิ-เชิน',thai:'สภาพ / เงื่อนไข',pos:'noun'},
+{word:'mobile',pron:'โม-ไบล์',thai:'เคลื่อนที่ได้',pos:'adjective'},
+{word:'essential',pron:'อิ-เซน-เชิล',thai:'จำเป็น / สำคัญมาก',pos:'adjective'},
+{word:'referred to as',pron:'ริ-เฟิร์ด ทู แอส',thai:'เรียกว่า',pos:'phrase'},
+{word:'circular',pron:'เซอร์-คิว-เลอะ',thai:'เป็นวงกลม',pos:'adjective'},
+{word:'disc',pron:'ดิสก์',thai:'หมอนรองกระดูก / แผ่นกลม',pos:'noun'},
+{word:'distinct',pron:'ดิ-สทิงคท์',thai:'ชัดเจน / แยกออกได้',pos:'adjective'},
+{word:'rotate',pron:'โร-เทท',thai:'หมุน',pos:'verb'},
+{word:'ligament',pron:'ลิ-กะ-เมินท์',thai:'เอ็นยึดกระดูก',pos:'noun'},
+{word:'tissue',pron:'ทิช-ชู',thai:'เนื้อเยื่อ',pos:'noun'},
+{word:'stretch',pron:'สเทรทช์',thai:'ยืด / ยืดออก',pos:'verb'},
+{word:'absorb',pron:'แอบ-ซอร์บ',thai:'ดูดซับ / รองรับ',pos:'verb'},
+{word:'shock',pron:'ช็อก',thai:'แรงกระแทก',pos:'noun'},
+{word:'joint',pron:'จอยน์ท',thai:'ข้อต่อ',pos:'noun'},
+{word:'bend',pron:'เบนด์',thai:'งอ',pos:'verb'},
+{word:'twist',pron:'ทวิสต์',thai:'บิด',pos:'verb'},
+{word:'spinal cord',pron:'สไป-นัล คอร์ด',thai:'ไขสันหลัง',pos:'noun'},
+{word:'skeleton',pron:'สเค-ละ-เทิน',thai:'โครงกระดูก',pos:'noun'}
+];
+
+const readingData = {
+  p1:{
+    badge:'Science Passage · Section 1',
+    title:'Vertebrates: Their Role and Function',
+    thaiTitle:'สัตว์มีกระดูกสันหลัง: บทบาทและหน้าที่',
+    visual:`<svg class="scene" viewBox="0 0 520 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ภาพประกอบ vertebrates"><defs><linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0ea5e9"/><stop offset="1" stop-color="#14b8a6"/></linearGradient></defs><rect width="520" height="260" rx="26" fill="url(#bg1)" opacity=".2"/><circle cx="95" cy="160" r="46" fill="#bff5ff" opacity=".9"/><circle cx="95" cy="150" r="22" fill="#fff" opacity=".85"/><rect x="78" y="174" width="34" height="30" rx="11" fill="#fff" opacity=".82"/><path d="M150 155 Q200 95 266 115 T404 105" stroke="#e7fdff" stroke-width="20" fill="none" stroke-linecap="round" opacity=".9"/><circle cx="180" cy="136" r="11" fill="#fff"/><circle cx="210" cy="128" r="10" fill="#fff"/><circle cx="242" cy="121" r="10" fill="#fff"/><circle cx="274" cy="117" r="10" fill="#fff"/><circle cx="306" cy="114" r="10" fill="#fff"/><circle cx="338" cy="109" r="10" fill="#fff"/><path d="M392 95 q25 -15 44 0 q-24 8 -44 0Z" fill="#fff"/><text x="42" y="42" fill="#ffffff" font-size="20" font-weight="700">Backbone protects the nerves</text><text x="42" y="66" fill="#d4fbff" font-size="14">All living species with a backbone are vertebrates.</text></svg>`,
+    paragraphs:[
+      {en:'One of the most essential parts of our bodies is our backbone. This is the set of bones that runs along the center of our back, connecting to our brain at the top.',th:'ส่วนที่สำคัญมากที่สุดส่วนหนึ่งของร่างกายเราคือกระดูกสันหลัง กระดูกสันหลังคือชุดของกระดูกที่พาดยาวตามแนวกลางหลังของเรา และเชื่อมต่อกับสมองที่ด้านบน'},
+      {en:'All living species that have a backbone are called vertebrates. All mammals, birds and most reptiles are in the vertebrate category. This even includes fish with bones.',th:'สิ่งมีชีวิตทุกชนิดที่มีกระดูกสันหลังเรียกว่า vertebrates หรือสัตว์มีกระดูกสันหลัง สัตว์เลี้ยงลูกด้วยนม นก และสัตว์เลื้อยคลานส่วนใหญ่จัดอยู่ในกลุ่มนี้ รวมถึงปลาที่มีกระดูกด้วย'},
+      {en:'The backbone is sometimes called a spinal column. It runs down the back of the animal and protects and supports the nerves inside. This is just like a plastic pipe protecting electrical cables inside your home.',th:'กระดูกสันหลังบางครั้งเรียกว่า spinal column มันพาดลงมาตามด้านหลังของสัตว์ และช่วยปกป้องพร้อมทั้งค้ำจุนเส้นประสาทที่อยู่ภายใน ซึ่งเปรียบได้กับท่อพลาสติกที่ปกป้องสายไฟภายในบ้าน'},
+      {en:'Without this protective backbone, our nerves that connect with our muscles, arms and legs could easily be damaged.',th:'หากไม่มีกระดูกสันหลังที่ช่วยปกป้องนี้ เส้นประสาทของเราที่เชื่อมกับกล้ามเนื้อ แขน และขา อาจได้รับความเสียหายได้ง่าย'}
+    ]
+  },
+  p2:{
+    badge:'Science Passage · Section 2',
+    title:'Characteristics',
+    thaiTitle:'ลักษณะสำคัญของสัตว์มีกระดูกสันหลัง',
+    visual:`<svg class="scene" viewBox="0 0 520 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ภาพประกอบ characteristics"><defs><linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22c55e"/><stop offset="1" stop-color="#0ea5e9"/></linearGradient></defs><rect width="520" height="260" rx="26" fill="url(#bg2)" opacity=".18"/><path d="M60 190 q48 -78 110 -28 q74 -86 134 -26 q63 -53 116 12" fill="none" stroke="#ecfeff" stroke-width="7" stroke-linecap="round"/><circle cx="66" cy="190" r="10" fill="#fff"/><circle cx="122" cy="162" r="10" fill="#fff"/><circle cx="174" cy="148" r="10" fill="#fff"/><circle cx="232" cy="122" r="10" fill="#fff"/><circle cx="288" cy="140" r="10" fill="#fff"/><circle cx="346" cy="122" r="10" fill="#fff"/><circle cx="402" cy="138" r="10" fill="#fff"/><circle cx="452" cy="152" r="10" fill="#fff"/><path d="M126 210 q20 -40 52 -10" stroke="#fff" stroke-width="8" fill="none" stroke-linecap="round"/><path d="M160 204 q20 -35 50 -4" stroke="#fff" stroke-width="8" fill="none" stroke-linecap="round"/><path d="M328 203 q18 -28 42 -8" stroke="#fff" stroke-width="8" fill="none" stroke-linecap="round"/><path d="M356 198 q18 -24 40 -6" stroke="#fff" stroke-width="8" fill="none" stroke-linecap="round"/><text x="36" y="42" fill="#ffffff" font-size="20" font-weight="700">Muscles, skeletons, limbs, and movement</text><text x="36" y="66" fill="#dffcff" font-size="14">Vertebrates could move to new environments.</text></svg>`,
+    paragraphs:[
+      {en:'The most advanced organisms on Earth are vertebrates. They are the smartest creatures like dolphins, chimpanzees, elephants and humans.',th:'สิ่งมีชีวิตที่พัฒนามากที่สุดบนโลกคือสัตว์มีกระดูกสันหลัง พวกมันคือสิ่งมีชีวิตที่ฉลาด เช่น โลมา ชิมแปนซี ช้าง และมนุษย์'},
+      {en:'But when the first vertebrates evolved about 525 million years ago, they were simple creatures. Later, reptiles comprised the majority of vertebrates, then dinosaurs, birds and finally mammals.',th:'แต่เมื่อสัตว์มีกระดูกสันหลังยุคแรกเริ่มวิวัฒนาการขึ้นเมื่อประมาณ 525 ล้านปีก่อน พวกมันยังเป็นสิ่งมีชีวิตที่เรียบง่าย ต่อมาสัตว์เลื้อยคลานเป็นกลุ่มหลักของสัตว์มีกระดูกสันหลัง จากนั้นจึงเป็นไดโนเสาร์ นก และสุดท้ายคือสัตว์เลี้ยงลูกด้วยนม'},
+      {en:'All vertebrates have muscles and skeletons. Also, they usually have two pairs of limbs. In humans, this is represented by arms and legs while birds have wings and legs.',th:'สัตว์มีกระดูกสันหลังทุกชนิดมีกล้ามเนื้อและโครงกระดูก อีกทั้งมักมีอวัยวะส่วนปลายสองคู่ ในมนุษย์ สิ่งนี้แสดงออกมาในรูปของแขนและขา ขณะที่นกมีปีกและขา'},
+      {en:'Of course, fish do not have limbs, but they use two sets of fins for steering through the water. All of this means that vertebrates were able to move to a new environment when conditions changed. By being mobile, they could choose where to live more easily than other types of animals.',th:'แน่นอนว่าปลาไม่มีแขนขา แต่พวกมันใช้ครีบสองชุดในการบังคับทิศทางในน้ำ ทั้งหมดนี้หมายความว่าสัตว์มีกระดูกสันหลังสามารถย้ายไปยังสภาพแวดล้อมใหม่ได้เมื่อเงื่อนไขเปลี่ยนไป เพราะพวกมันเคลื่อนที่ได้ จึงเลือกที่อยู่อาศัยได้ง่ายกว่าสัตว์ประเภทอื่น'}
+    ]
+  },
+  p3:{
+    badge:'Science Passage · Section 3',
+    title:'A Human Shock Absorber',
+    thaiTitle:'ตัวดูดซับแรงกระแทกของมนุษย์',
+    visual:`<svg class="scene" viewBox="0 0 520 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ภาพประกอบ shock absorber"><defs><linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7c3aed"/><stop offset="1" stop-color="#0ea5e9"/></linearGradient></defs><rect width="520" height="260" rx="26" fill="url(#bg3)" opacity=".2"/><g transform="translate(176,28)"><rect x="76" y="16" width="14" height="34" rx="7" fill="#fff"/><circle cx="83" cy="8" r="10" fill="#fff"/><path d="M82 49 L82 114" stroke="#fff" stroke-width="12" stroke-linecap="round"/><path d="M82 70 L46 94" stroke="#fff" stroke-width="9" stroke-linecap="round"/><path d="M82 70 L120 94" stroke="#fff" stroke-width="9" stroke-linecap="round"/><path d="M82 114 L52 156" stroke="#fff" stroke-width="10" stroke-linecap="round"/><path d="M82 114 L116 160" stroke="#fff" stroke-width="10" stroke-linecap="round"/></g><g transform="translate(218,44)"><rect x="0" y="0" width="18" height="150" rx="8" fill="#dff9ff" opacity=".25"/><circle cx="9" cy="16" r="10" fill="#fff"/><circle cx="9" cy="40" r="10" fill="#fff"/><circle cx="9" cy="64" r="10" fill="#fff"/><circle cx="9" cy="88" r="10" fill="#fff"/><circle cx="9" cy="112" r="10" fill="#fff"/><circle cx="9" cy="136" r="10" fill="#fff"/></g><path d="M74 214 q78 -30 148 0" stroke="#fff" stroke-width="8" fill="none" stroke-linecap="round" opacity=".8"/><path d="M252 214 q78 -30 148 0" stroke="#fff" stroke-width="8" fill="none" stroke-linecap="round" opacity=".8"/><text x="30" y="42" fill="#ffffff" font-size="20" font-weight="700">Vertebrae + Discs + Ligaments</text><text x="30" y="66" fill="#e9ddff" font-size="14">These parts work together to absorb shock.</text></svg>`,
+    paragraphs:[
+      {en:'Inside the spinal column of a human, there are 24 bones referred to as vertebrae. Between each vertebra bone is a circular-shaped disc.',th:'ภายในแนวกระดูกสันหลังของมนุษย์ มีกระดูก 24 ชิ้นที่เรียกว่า vertebrae ระหว่างกระดูกแต่ละชิ้นจะมีหมอนรองกระดูกที่มีลักษณะเป็นวงกลม'},
+      {en:'These discs, separated into five distinct sections, rotate or move around as your body moves. If a basketball player jumps and shoots the ball, the discs will turn inside the spinal column. This allows the player to twist in the air.',th:'หมอนรองกระดูกเหล่านี้ซึ่งแบ่งออกเป็นห้าส่วนอย่างชัดเจน สามารถหมุนหรือเคลื่อนไหวไปตามการเคลื่อนไหวของร่างกาย หากนักบาสเกตบอลกระโดดแล้วยิงลูกบอล หมอนรองกระดูกจะหมุนภายในแนวกระดูกสันหลัง สิ่งนี้ทำให้นักกีฬาบิดตัวในอากาศได้'},
+      {en:'Connecting all these bones and discs is tissue called ligaments. These ligaments are just like an elastic band, stretching and moving as you do.',th:'สิ่งที่เชื่อมกระดูกและหมอนรองกระดูกทั้งหมดเข้าด้วยกันคือเนื้อเยื่อที่เรียกว่า ligaments เอ็นเหล่านี้ทำหน้าที่เหมือนยางยืด คือยืดและเคลื่อนไหวไปพร้อมกับร่างกายของคุณ'},
+      {en:'When a person falls or lands on the ground very hard, the vertebrae, discs and ligaments absorb the shock so that you don’t get hurt. Together, these three parts function as a joint, allowing our body to bend or twist.',th:'เมื่อคนเราล้มหรือกระแทกพื้นอย่างแรง vertebrae, discs และ ligaments จะช่วยดูดซับแรงกระแทกเพื่อไม่ให้เราได้รับบาดเจ็บ เมื่อนำมาทำงานร่วมกัน ทั้งสามส่วนนี้จึงทำหน้าที่เสมือนข้อต่อที่ทำให้ร่างกายงอหรือบิดได้'}
+    ]
+  }
+};
+
+const sentenceTranslations = {
+  p1: [
+    'ส่วนที่สำคัญมากที่สุดส่วนหนึ่งของร่างกายเราคือกระดูกสันหลัง',
+    'กระดูกสันหลังคือชุดของกระดูกที่พาดยาวตามแนวกลางหลังของเรา และเชื่อมต่อกับสมองที่ด้านบน',
+    'สิ่งมีชีวิตทุกชนิดที่มีกระดูกสันหลังเรียกว่า vertebrates หรือสัตว์มีกระดูกสันหลัง',
+    'สัตว์เลี้ยงลูกด้วยนม นก และสัตว์เลื้อยคลานส่วนใหญ่จัดอยู่ในกลุ่มสัตว์มีกระดูกสันหลัง',
+    'กลุ่มนี้ยังรวมถึงปลาที่มีกระดูกด้วย',
+    'กระดูกสันหลังบางครั้งเรียกว่า spinal column',
+    'กระดูกสันหลังพาดลงมาตามด้านหลังของสัตว์ และช่วยปกป้องพร้อมทั้งค้ำจุนเส้นประสาทที่อยู่ภายใน',
+    'สิ่งนี้เปรียบได้กับท่อพลาสติกที่ช่วยปกป้องสายไฟภายในบ้าน',
+    'หากไม่มีกระดูกสันหลังที่ช่วยปกป้องนี้ เส้นประสาทของเราที่เชื่อมต่อกับกล้ามเนื้อ แขน และขา อาจได้รับความเสียหายได้ง่าย'
+  ],
+  p2: [
+    'สิ่งมีชีวิตที่พัฒนามากที่สุดบนโลกคือสัตว์มีกระดูกสันหลัง',
+    'พวกมันเป็นสิ่งมีชีวิตที่ฉลาด เช่น โลมา ชิมแปนซี ช้าง และมนุษย์',
+    'แต่เมื่อสัตว์มีกระดูกสันหลังยุคแรกเริ่มวิวัฒนาการขึ้นเมื่อประมาณ 525 ล้านปีก่อน พวกมันยังเป็นสิ่งมีชีวิตที่เรียบง่าย',
+    'ต่อมาสัตว์เลื้อยคลานเป็นกลุ่มหลักของสัตว์มีกระดูกสันหลัง จากนั้นจึงเป็นไดโนเสาร์ นก และสุดท้ายคือสัตว์เลี้ยงลูกด้วยนม',
+    'สัตว์มีกระดูกสันหลังทุกชนิดมีกล้ามเนื้อและโครงกระดูก',
+    'อีกทั้งโดยทั่วไปมักมีอวัยวะส่วนปลายสองคู่',
+    'ในมนุษย์สิ่งนี้แสดงออกมาในรูปของแขนและขา ขณะที่นกมีปีกและขา',
+    'แน่นอนว่าปลาไม่มีแขนขา แต่พวกมันใช้ครีบสองชุดในการบังคับทิศทางผ่านน้ำ',
+    'ทั้งหมดนี้หมายความว่าสัตว์มีกระดูกสันหลังสามารถย้ายไปยังสภาพแวดล้อมใหม่ได้เมื่อสภาพแวดล้อมเปลี่ยนไป',
+    'เพราะพวกมันเคลื่อนที่ได้ จึงเลือกที่อยู่อาศัยได้ง่ายกว่าสัตว์ประเภทอื่น'
+  ],
+  p3: [
+    'ภายในแนวกระดูกสันหลังของมนุษย์มีกระดูก 24 ชิ้นที่เรียกว่า vertebrae',
+    'ระหว่างกระดูกสันหลังแต่ละชิ้นจะมีหมอนรองกระดูกรูปร่างกลมแบนอยู่',
+    'หมอนรองกระดูกเหล่านี้ ซึ่งแบ่งออกเป็นห้าส่วนอย่างชัดเจน สามารถหมุนหรือเคลื่อนไหวตามการเคลื่อนไหวของร่างกาย',
+    'หากนักบาสเกตบอลกระโดดแล้วยิงลูกบอล หมอนรองกระดูกจะหมุนภายในแนวกระดูกสันหลัง',
+    'สิ่งนี้ทำให้นักกีฬาสามารถบิดตัวในอากาศได้',
+    'สิ่งที่เชื่อมกระดูกและหมอนรองกระดูกทั้งหมดเข้าด้วยกันคือเนื้อเยื่อที่เรียกว่า ligaments',
+    'เอ็นเหล่านี้เปรียบเสมือนยางยืดที่ยืดและเคลื่อนไหวไปพร้อมกับร่างกาย',
+    'เมื่อคนเราล้มหรือกระแทกพื้นอย่างแรง กระดูกสันหลัง หมอนรองกระดูก และเอ็นจะช่วยดูดซับแรงกระแทกเพื่อไม่ให้เราได้รับบาดเจ็บ',
+    'ทั้งสามส่วนนี้ทำงานร่วมกันเสมือนข้อต่อ ทำให้ร่างกายงอหรือบิดได้'
+  ]
+};
+
+const analysisItems = [
+  {term:'represented by', explain:'หมายถึง “แสดงออกมาในรูปของ” เช่น two pairs of limbs in humans are represented by arms and legs.'},
+  {term:'comprised the majority', explain:'หมายถึง “เป็นส่วนใหญ่ของ” หรือ “ประกอบเป็นส่วนใหญ่” เช่น reptiles comprised the majority of vertebrates.'},
+  {term:'referred to as', explain:'หมายถึง “เรียกว่า” เช่น 24 bones referred to as vertebrae.'},
+  {term:'distinct sections', explain:'หมายถึง “ส่วนที่แยกออกจากกันอย่างชัดเจน” ใช้อธิบายว่ามีการแบ่งเป็นส่วนต่าง ๆ อย่างชัดเจน'},
+  {term:'for steering through the water', explain:'หมายถึง “เพื่อบังคับทิศทางผ่านน้ำ” ใช้อธิบายการใช้ครีบของปลา'},
+  {term:'absorb the shock', explain:'หมายถึง “รองรับแรงกระแทก” หรือ “ดูดซับแรงกระแทก”'},
+  {term:'function as a joint', explain:'หมายถึง “ทำหน้าที่เสมือนข้อต่อ” ทำให้เกิดการเคลื่อนไหวได้'}
+];
+
+const readingSkillQs = [
+  {q:'1) How is the phrase represented by used in the passage?', options:['To show how advanced human limbs are','To talk about circular shaped discs','To symbolize the flight of birds','To show what type of limbs humans have'], answer:3, reason:'คำว่า represented by ในที่นี้ใช้เพื่อบอกว่า “ในมนุษย์ สิ่งนี้แสดงออกมาในรูปของแขนและขา” ดังนั้นจึงตอบข้อ 4 คือ To show what type of limbs humans have.'},
+  {q:'2) What is the meaning of distinct sections as used in the passage?', options:['The sections of bones helps to breathe.','When bones break, they separate into five distinct pieces.','The discs are separated into different subsections.','The spinal cord and vertebrae are important body parts.'], answer:2, reason:'distinct sections หมายถึง “ส่วนที่แยกจากกันชัดเจน” จึงสอดคล้องกับข้อ 3 ที่บอกว่า discs are separated into different subsections.'}
+];
+
+const comprehensionQs = [
+  {q:'1) What is the main purpose of the passage?', options:['To give nutritional information about bones','To inform the reader about muscle development','To talk about an essential part of the body, the backbone','To tell the reader how to move'], answer:2, reason:'ทั้งบทมุ่งอธิบายเรื่อง backbone หรือกระดูกสันหลัง และหน้าที่ของมัน จึงตอบข้อ 3.'},
+  {q:'2) What\'s the main role of the backbone in a vertebrate?', options:['It makes it harder to stretch and move.','It helps some species like humans to survive.','It helps protect our body from becoming damaged.','It helps our muscles to become stronger.'], answer:2, reason:'บทอ่านบอกชัดว่า backbone protects and supports the nerves inside จึงตอบข้อ 3 ว่าช่วยปกป้องร่างกายจากความเสียหาย.'},
+  {q:'3) What are the fins of fish compared to?', options:['Reptile fins','Bones and discs','Spinal cord','Arms and legs'], answer:3, reason:'ในบทอ่านบอกว่า humans have arms and legs while fish use fins for steering. จึงเปรียบฟังก์ชันของ fins กับ arms and legs ได้ดีที่สุด คือข้อ 4.'},
+  {q:'4) What function do the circular discs play?', options:['They move around the ligaments.','They increase in size when you jump.','They contract when you start to stretch.','They rotate and move as the body does.'], answer:3, reason:'บทอ่านย่อหน้า A Human Shock Absorber ระบุว่า These discs rotate or move around as your body moves. จึงตอบข้อ 4.'}
+];
+
+function renderPart(partKey){
+  const d = spineParts[partKey];
+  document.getElementById('partInfo').innerHTML = `
+    <span class="pill" style="background:${d.accent}22;color:${d.accent};border:1px solid ${d.accent}55">${d.title}</span>
+    <h4>${d.title}</h4>
+    <p><b style="color:#fff">${d.thai}</b><br/>${d.desc}</p>
+    <ul class="info-points">${d.points.map(p=>`<li>${p}</li>`).join('')}</ul>`;
+  document.querySelectorAll('[data-part]').forEach(el=>el.classList.toggle('active',el.dataset.part===partKey));
+}
+
+function buildVocab(){
+  const filterWrap = document.getElementById('vocabFilters');
+  const filters = ['all','noun','verb','adjective','phrase'];
+  filterWrap.innerHTML = filters.map((f,i)=>`<button class="${i===0?'active':''}" data-filter="${f}">${f.toUpperCase()}</button>`).join('');
+  let currentFilter='all'; let query='';
+  function render(){
+    const data = vocabData.filter(v=>(currentFilter==='all'||v.pos.includes(currentFilter)) && (`${v.word} ${v.thai} ${v.pos}`.toLowerCase().includes(query.toLowerCase())));
+    document.getElementById('vocabCount').textContent = `แสดง ${data.length} คำ จากทั้งหมด ${vocabData.length} คำ`;
+    document.getElementById('wordGrid').innerHTML = data.map((v,i)=>`
+      <div class="flip-card" tabindex="0">
+        <div class="flip-inner">
+          <div class="flip-face">
+            <div class="word-top"><span class="word-no">#${String(i+1).padStart(2,'0')}</span><span class="word-pos">${v.pos}</span></div>
+            <div><div class="word-en">${v.word}</div><div class="word-pron">คำอ่าน: ${v.pron}</div></div>
+            <div class="tap-hint">แตะ/คลิกเพื่อดูความหมาย</div>
+          </div>
+          <div class="flip-face flip-back">
+            <div class="word-top"><span class="word-no" style="color:#7ef9fa">${v.pos}</span><span class="word-pos" style="background:rgba(255,255,255,.12);color:#fff">TH</span></div>
+            <div><div class="word-thai">${v.thai}</div><div class="word-def">English word: <b>${v.word}</b><br/>Pronunciation: ${v.pron}</div></div>
+            <div class="tap-hint" style="color:#cffafe">แตะ/คลิกเพื่อพลิกกลับ</div>
+          </div>
+        </div>
+      </div>`).join('');
+    document.querySelectorAll('.flip-card').forEach(card=>{card.addEventListener('click',()=>card.classList.toggle('flipped'));card.addEventListener('keypress',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();card.classList.toggle('flipped')}})});
+  }
+  filterWrap.addEventListener('click',e=>{if(e.target.matches('button')){currentFilter=e.target.dataset.filter; [...filterWrap.children].forEach(b=>b.classList.remove('active')); e.target.classList.add('active'); render();}});
+  document.getElementById('vocabSearch').addEventListener('input',e=>{query=e.target.value; render()});
+  render();
+}
+
+/* เกมคะแนนและเกมจับคู่ย้ายไปอยู่ในสคริปต์ Game Engine 4.0 ที่แยกการทำงาน */
+function renderReading(key='p1'){
+  const data = readingData[key];
+  document.getElementById('passageBadge').textContent=data.badge;
+  document.getElementById('readingTitle').textContent=data.title;
+  document.getElementById('readingThaiTitle').textContent=data.thaiTitle;
+  document.getElementById('readingVisual').innerHTML=data.visual;
+  document.getElementById('readingParagraphs').innerHTML = data.paragraphs.map((p,i)=>`
+    <div class="para-box"><b>Paragraph ${i+1}</b><p>${p.en}</p><p class="thai" style="margin-top:10px">${p.th}</p></div>`).join('');
+  const englishSentences = data.paragraphs.flatMap(p => p.en.match(/[^.!?]+(?:[.!?]+|$)/g) || []).map(x => x.trim()).filter(Boolean);
+  const translations = sentenceTranslations[key];
+  if (englishSentences.length !== translations.length) {
+    console.warn('Sentence alignment mismatch', key, englishSentences.length, translations.length);
+  }
+  const sents = englishSentences.map((en, i) => ({en, th: translations[i] || '', no: i+1}));
+  document.getElementById('sentenceList').innerHTML = sents.map((sentence,i)=>`<div class="sent-box"><b>Sentence ${i+1}</b><p>${sentence.en}</p><p class="thai" style="margin-top:10px">${sentence.th}</p></div>`).join('');
+  document.querySelectorAll('#readingTabs button').forEach(btn=>btn.classList.toggle('active',btn.dataset.topic===key));
+}
+document.getElementById('readingTabs').addEventListener('click',e=>{ if(e.target.matches('button')) renderReading(e.target.dataset.topic); });
+
+function buildAnalysis(){
+  document.getElementById('analysisList').innerHTML = analysisItems.map(item=>`<div class="go-box" style="margin-bottom:14px"><h4>${item.term}</h4><p>${item.explain}</p></div>`).join('');
+}
+
+function buildExerciseBox(targetId, arr){
+  const root = document.getElementById(targetId);
+  root.innerHTML = arr.map((q,qi)=>`<div class="ex-item"><div class="q">${q.q}</div><div class="opts">${q.options.map((op,oi)=>`<button class="opt" data-q="${qi}" data-o="${oi}">${String.fromCharCode(65+oi)}. ${op}</button>`).join('')}</div><div class="answerbox">คำตอบที่ถูกคือ <b>${String.fromCharCode(65+q.answer)}</b><br/>${q.reason}</div></div>`).join('');
+  root.querySelectorAll('.opt').forEach(btn=>btn.addEventListener('click',()=>{
+    const q = arr[+btn.dataset.q], oi=+btn.dataset.o; const box=btn.closest('.ex-item');
+    if(box.dataset.done) return; box.dataset.done='1';
+    [...box.querySelectorAll('.opt')].forEach((b,idx)=>{ if(idx===q.answer) b.classList.add('correct'); if(idx===oi && oi!==q.answer) b.classList.add('wrong'); });
+    box.querySelector('.answerbox').classList.add('show');
+  }));
+}
+
+function setupSummary(){
+  document.getElementById('wordBank').innerHTML = ['disc','nerves','absorb','rotate','backbone','bones','connecting to'].map(w=>`<span class="wb">${w}</span>`).join('');
+}
+document.getElementById('checkSummary').addEventListener('click',()=>{
+  const inputs=[...document.querySelectorAll('#summary input[data-answer]')];
+  let correct=0;
+  inputs.forEach(inp=>{
+    const ans = inp.dataset.answer.toLowerCase().trim();
+    const val = inp.value.toLowerCase().trim();
+    if(val===ans){ inp.style.borderColor='#86efac'; inp.style.background='#f0fdf4'; correct++; }
+    else { inp.style.borderColor='#fda4af'; inp.style.background='#fff1f2'; }
+  });
+  const box=document.getElementById('summaryResult');
+  box.classList.add('show');
+  box.innerHTML = correct===inputs.length ? `<b>Excellent!</b> คุณเติมถูกครบ ${correct} / ${inputs.length} ช่อง` : `<b>Result:</b> คุณเติมถูก ${correct} / ${inputs.length} ช่อง<br/>เฉลย: backbone · connecting to · nerves · bones · disc · rotate · absorb`;
+});
+document.getElementById('resetSummary').addEventListener('click',()=>{
+  document.querySelectorAll('#summary input[data-answer]').forEach(inp=>{inp.value=''; inp.style.borderColor='#cfdee8'; inp.style.background='#fff';});
+  document.getElementById('summaryResult').className='summary-result';
+  document.getElementById('summaryResult').innerHTML='';
+});
+
+function observeReveal(){
+  const io = new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('show')}}),{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+}
+function handleProgress(){
+  const total = document.documentElement.scrollHeight - window.innerHeight;
+  const p = total>0 ? window.scrollY/total*100 : 0;
+  document.getElementById('progress').style.width = p + '%';
+  const sections=['intro','spinelab','vocabulary','quiz','memory','reading','analysis','exercise','summary','graphic'];
+  let current='intro';
+  sections.forEach(id=>{ const el=document.getElementById(id); const rect=el.getBoundingClientRect(); if(rect.top<=120 && rect.bottom>120) current=id; });
+  document.querySelectorAll('.nav-links a').forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+current));
+}
+function bindSpineButtons(){
+  document.querySelectorAll('[data-part]').forEach(btn=>btn.addEventListener('click',()=>renderPart(btn.dataset.part)));
+  const model=document.getElementById('spineModel'); const core=document.getElementById('spineCore');
+  model.addEventListener('mousemove',e=>{ const r=model.getBoundingClientRect(); const x=(e.clientX-r.left)/r.width-.5; const y=(e.clientY-r.top)/r.height-.5; core.style.transform=`rotateX(${14-y*10}deg) rotateY(${-12+x*16}deg)`; });
+  model.addEventListener('mouseleave',()=>core.style.transform='rotateX(14deg) rotateY(-12deg)');
+}
+
+window.addEventListener('error',e=>{
+  const status=document.getElementById('siteStatus');
+  if(status){ status.textContent='⚠️ JavaScript Error: '+e.message+' — ส่งข้อความนี้ให้ครูตรวจ';status.style.background='rgba(251,113,133,.2)'; }
+});
+try {
+  buildVocab(); renderReading('p1'); buildAnalysis();
+  buildExerciseBox('readingSkillBox',readingSkillQs); buildExerciseBox('comprehensionBox',comprehensionQs);
+  setupSummary(); renderPart('vertebrae'); bindSpineButtons(); observeReveal(); handleProgress();
+  window.addEventListener('scroll',handleProgress); window.addEventListener('resize',handleProgress);
+  const status = document.getElementById('siteStatus');
+  if(status){ status.textContent='✅ GitHub Pages Edition: โหลดเนื้อหาบทเรียนสำเร็จ · คำศัพท์ 40 คำ · บทอ่าน · Spine Lab'; }
+} catch(err) {
+  console.error('Spine Studio startup error:', err);
+  const status=document.getElementById('siteStatus');
+  if(status){ status.textContent='⚠️ โหลดกิจกรรมไม่สำเร็จ: '+(err&&err.message||'Unknown error')+' — เนื้อหาหลักยังอ่านได้'; status.style.background='rgba(251,113,133,.15)'; }
+}
+
+</script>
+
+<script id="spine-game-engine-v4">
+/* SPINE STUDIO — Game Engine 4.0. Runs INDEPENDENTLY from the lesson JS. */
+(function(){
+  'use strict';
+  var WORDS=[{"word":"vertebrate","pron":"เวอร์-ทิ-เบรต","thai":"สัตว์มีกระดูกสันหลัง","pos":"noun"},{"word":"backbone","pron":"แบ็ก-โบน","thai":"กระดูกสันหลัง","pos":"noun"},{"word":"spinal column","pron":"สไป-นัล คอ-ลัมน์","thai":"แนวกระดูกสันหลัง","pos":"noun"},{"word":"nerve","pron":"เนิร์ฟ","thai":"เส้นประสาท","pos":"noun"},{"word":"muscle","pron":"มัส-เซิล","thai":"กล้ามเนื้อ","pos":"noun"},{"word":"limb","pron":"ลิมบ์","thai":"แขนหรือขา / อวัยวะส่วนปลาย","pos":"noun"},{"word":"mammal","pron":"แมม-เมิล","thai":"สัตว์เลี้ยงลูกด้วยนม","pos":"noun"},{"word":"reptile","pron":"เรพ-ไทล์","thai":"สัตว์เลื้อยคลาน","pos":"noun"},{"word":"bird","pron":"เบิร์ด","thai":"นก","pos":"noun"},{"word":"fish","pron":"ฟิช","thai":"ปลา","pos":"noun"},{"word":"species","pron":"สปี-ชีส","thai":"ชนิด / สายพันธุ์","pos":"noun"},{"word":"protect","pron":"พระ-เทคท์","thai":"ปกป้อง","pos":"verb"},{"word":"support","pron":"ซะ-พอร์ท","thai":"ค้ำจุน / รองรับ / สนับสนุน","pos":"verb"},{"word":"damage","pron":"แดม-เมจ","thai":"ทำให้เสียหาย / ความเสียหาย","pos":"verb / noun"},{"word":"advanced","pron":"แอด-แวนซ์ด","thai":"ก้าวหน้า / ซับซ้อนมากขึ้น","pos":"adjective"},{"word":"creature","pron":"ครี-เชอร์","thai":"สิ่งมีชีวิต","pos":"noun"},{"word":"evolve","pron":"อิ-วอล์ฟ","thai":"วิวัฒนาการ","pos":"verb"},{"word":"comprise","pron":"คัม-ไพรซ","thai":"ประกอบด้วย / เป็นส่วนใหญ่","pos":"verb"},{"word":"majority","pron":"มะ-จอ-ริ-ที","thai":"ส่วนใหญ่","pos":"noun"},{"word":"represent","pron":"เรพ-ริ-เซนท์","thai":"แสดงให้เห็น / เป็นตัวแทน","pos":"verb"},{"word":"steering","pron":"สเทีย-ริง","thai":"การบังคับทิศทาง","pos":"noun"},{"word":"environment","pron":"เอ็น-ไว-เออะ-เมินท์","thai":"สภาพแวดล้อม","pos":"noun"},{"word":"condition","pron":"คัน-ดิ-เชิน","thai":"สภาพ / เงื่อนไข","pos":"noun"},{"word":"mobile","pron":"โม-ไบล์","thai":"เคลื่อนที่ได้","pos":"adjective"},{"word":"essential","pron":"อิ-เซน-เชิล","thai":"จำเป็น / สำคัญมาก","pos":"adjective"},{"word":"referred to as","pron":"ริ-เฟิร์ด ทู แอส","thai":"เรียกว่า","pos":"phrase"},{"word":"circular","pron":"เซอร์-คิว-เลอะ","thai":"เป็นวงกลม","pos":"adjective"},{"word":"disc","pron":"ดิสก์","thai":"หมอนรองกระดูก / แผ่นกลม","pos":"noun"},{"word":"distinct","pron":"ดิ-สทิงคท์","thai":"ชัดเจน / แยกออกได้","pos":"adjective"},{"word":"rotate","pron":"โร-เทท","thai":"หมุน","pos":"verb"},{"word":"ligament","pron":"ลิ-กะ-เมินท์","thai":"เอ็นยึดกระดูก","pos":"noun"},{"word":"tissue","pron":"ทิช-ชู","thai":"เนื้อเยื่อ","pos":"noun"},{"word":"stretch","pron":"สเทรทช์","thai":"ยืด / ยืดออก","pos":"verb"},{"word":"absorb","pron":"แอบ-ซอร์บ","thai":"ดูดซับ / รองรับ","pos":"verb"},{"word":"shock","pron":"ช็อก","thai":"แรงกระแทก","pos":"noun"},{"word":"joint","pron":"จอยน์ท","thai":"ข้อต่อ","pos":"noun"},{"word":"bend","pron":"เบนด์","thai":"งอ","pos":"verb"},{"word":"twist","pron":"ทวิสต์","thai":"บิด","pos":"verb"},{"word":"spinal cord","pron":"สไป-นัล คอร์ด","thai":"ไขสันหลัง","pos":"noun"},{"word":"skeleton","pron":"สเค-ละ-เทิน","thai":"โครงกระดูก","pos":"noun"}];
+  var byId=function(id){return document.getElementById(id);};
+  var randomize=function(arr){
+    var a=arr.slice();
+    for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var z=a[i];a[i]=a[j];a[j]=z;}
+    return a;
+  };
+  var safe=function(txt){return String(txt).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');};
+  var setStatus=function(id,txt){var e=byId(id);if(e)e.textContent=txt;};
+  var qList=[],qIndex=0,qScore=0,qChosen=false,qFinished=false;
+  var mList=[],mOpen=[],mMatched=0,mMoves=0,mLocked=false,mToken=0,mTimeout=0;
+  var qButtons=byId('quizChoices');
+  var mBoard=byId('memoryGrid');
+  if(!qButtons || !mBoard || WORDS.length!==40){
+    setStatus('gameDiagnostics','⚠️ ไม่พบพื้นที่เกมหรือชุดคำศัพท์ไม่ครบ');
+    return;
+  }
+  function newQuiz(){
+    qList=randomize(WORDS).slice(0,10).map(function(w){
+      var other=[];
+      var all=randomize(WORDS);
+      for(var i=0;i<all.length && other.length<3;i++){
+        if(all[i].word!==w.word && other.indexOf(all[i].thai)<0 && all[i].thai!==w.thai){other.push(all[i].thai);}
+      }
+      var choices=randomize([w.thai].concat(other));
+      return {word:w.word,pron:w.pron,pos:w.pos,thai:w.thai,choices:choices};
+    });
+    qIndex=0;qScore=0;qChosen=false;qFinished=false;
+    drawQuiz();
+  }
+  function drawQuiz(){
+    var q=qList[qIndex];
+    if(!q){setStatus('quizRuntimeStatus','ไม่พบชุดคำถาม');return;}
+    qChosen=false;
+    byId('quizWord').textContent=q.word;
+    byId('quizPron').textContent=q.pron+' · '+q.pos;
+    byId('quizScore').textContent=qScore;
+    byId('quizProgress').textContent=(qIndex+1)+' / '+qList.length;
+    qButtons.innerHTML=q.choices.map(function(c,i){return '<button class="choice" type="button" data-g4-choice="'+i+'">'+safe(c)+'</button>';}).join('');
+    var fb=byId('quizFeedback');fb.className='quiz-feedback';fb.textContent='';
+    var next=byId('nextQuiz');next.disabled=true;next.style.opacity='.52';next.textContent=qIndex===qList.length-1?'ดูคะแนนรวม':'Next Question';
+    setStatus('quizRuntimeStatus','✅ เกมตอบคำศัพท์พร้อมเล่น — ตอบ 10 ข้อ คะแนนเต็ม 100');
+  }
+  qButtons.addEventListener('click',function(ev){
+    var btn=ev.target.closest('[data-g4-choice]');
+    if(!btn || qChosen || qFinished)return;
+    var q=qList[qIndex];
+    var idx=Number(btn.getAttribute('data-g4-choice'));
+    if(!isFinite(idx) || idx<0 || idx>=q.choices.length)return;
+    qChosen=true;
+    var correct=q.choices[idx]===q.thai;
+    if(correct)qScore+=10;
+    byId('quizScore').textContent=qScore;
+    var buttons=qButtons.querySelectorAll('[data-g4-choice]');
+    for(var i=0;i<buttons.length;i++){
+      buttons[i].disabled=true;
+      if(q.choices[i]===q.thai)buttons[i].classList.add('correct');
+      if(i===idx&&!correct)buttons[i].classList.add('wrong');
+    }
+    var fb=byId('quizFeedback');fb.className='quiz-feedback show';
+    fb.innerHTML=(correct?'✅ ถูกต้อง':'❌ ยังไม่ถูก')+'<br><b>'+safe(q.word)+'</b> = <b>'+safe(q.thai)+'</b>';
+    byId('nextQuiz').disabled=false;byId('nextQuiz').style.opacity='1';
+  });
+  byId('nextQuiz').addEventListener('click',function(){
+    if(!qChosen||qFinished)return;
+    if(qIndex<qList.length-1){qIndex++;drawQuiz();}
+    else{
+      qFinished=true;
+      var fb=byId('quizFeedback');fb.className='quiz-feedback show';
+      fb.innerHTML='🏆 จบเกมแล้ว! คะแนนรวม <b>'+qScore+' / 100</b><br>กด Reset Quiz เพื่อเล่นใหม่';
+      byId('nextQuiz').disabled=true;byId('nextQuiz').style.opacity='.52';
+      setStatus('quizRuntimeStatus','🏆 จบเกม · คะแนนรวม '+qScore+'/100');
+    }
+  });
+  byId('resetQuiz').addEventListener('click',newQuiz);
+
+  function resetMemory(){
+    mToken++; if(mTimeout){clearTimeout(mTimeout);mTimeout=0;}
+    mOpen=[];mMatched=0;mMoves=0;mLocked=false;
+    var chosen=randomize(WORDS).slice(0,8);
+    var cards=[];
+    chosen.forEach(function(w,i){cards.push({pair:i,kind:'w',txt:w.word});cards.push({pair:i,kind:'t',txt:w.thai});});
+    mList=randomize(cards);
+    byId('memMoves').textContent='0';byId('memMatched').textContent='0 / 8';
+    mBoard.innerHTML=mList.map(function(c,i){return '<button type="button" class="memory-card" data-g4-index="'+i+'" aria-label="พลิกป้าย '+(i+1)+'"><div class="memory-inner"><div class="memory-face memory-front">🦴</div><div class="memory-face memory-back">'+safe(c.txt)+'</div></div></button>';}).join('');
+    setStatus('memoryRuntimeStatus','✅ เกมจับคู่พร้อมเล่น — เลือกป้ายคำศัพท์และความหมายที่ตรงกัน');
+  }
+  mBoard.addEventListener('click',function(ev){
+    var btn=ev.target.closest('[data-g4-index]');
+    if(!btn || mLocked || btn.classList.contains('matched') || btn.classList.contains('flipped'))return;
+    var idx=Number(btn.getAttribute('data-g4-index'));
+    if(!isFinite(idx) || !mList[idx])return;
+    btn.classList.add('flipped');
+    mOpen.push({index:idx,pair:mList[idx].pair,kind:mList[idx].kind});
+    if(mOpen.length!==2)return;
+    mLocked=true;mMoves++;byId('memMoves').textContent=mMoves;
+    var pairA=mOpen[0],pairB=mOpen[1],token=mToken;
+    var matchedPair=pairA.pair===pairB.pair && pairA.kind!==pairB.kind;
+    mTimeout=setTimeout(function(){
+      if(mToken!==token)return;
+      var a=mBoard.querySelector('[data-g4-index="'+pairA.index+'"]');
+      var b=mBoard.querySelector('[data-g4-index="'+pairB.index+'"]');
+      if(a&&b){
+        if(matchedPair){
+          a.classList.add('matched');b.classList.add('matched');mMatched++;byId('memMatched').textContent=mMatched+' / 8';
+          if(mMatched===8)setStatus('memoryRuntimeStatus','🏆 จับคู่ครบ 8 คู่แล้ว! ใช้ '+mMoves+' ครั้ง · กด Reset เพื่อเล่นใหม่');
+        }else{a.classList.remove('flipped');b.classList.remove('flipped');}
+      }
+      mOpen=[];mLocked=false;mTimeout=0;
+    },matchedPair?360:850);
+  });
+  byId('resetMemory').addEventListener('click',resetMemory);
+  try{
+    newQuiz();resetMemory();
+    setStatus('gameDiagnostics','✅ Game Engine Ready: คำถาม 4 ตัวเลือกพร้อมใช้งาน · เกมจับคู่ 16 ป้ายพร้อมใช้งาน · ระบบเกมแยกจากบทเรียนหลัก');
+    window.__spineGame4Ready=true;
+  }catch(ex){
+    var e=byId('gameDiagnostics');if(e){e.className='g4-error';e.textContent='⚠️ Game Engine Error: '+(ex.message||ex);}
+  }
+})();
+</script>
+</body>
+</html>
